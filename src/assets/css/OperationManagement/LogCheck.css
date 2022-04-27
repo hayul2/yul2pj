@@ -1,0 +1,123 @@
+.log_container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 30px 0;
+}
+.log_header_wrap {
+  display: flex;
+  justify-content: space-between;
+  font-size: 30px;
+  color: #997fb5;
+  padding: 0 20px;
+}
+.menu_btn:last-child {
+  float: right;
+  background: #997fb5;
+  color: #fff;
+  border-radius: 5px;
+  line-height: 1.2;
+}
+.xi-close {
+  color: #997fb5;
+}
+.log_main_text {
+  text-align: left;
+}
+.sub_text_wrap {
+  padding: 15px 0 30px 0;
+}
+.sub_text {
+  text-align: left;
+  font-size: 14px;
+  color: #9b9b9c;
+}
+.log_btn_wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 20px;
+}
+.log_menu_btn {
+  border: 1px solid #997fb5;
+  padding: 5px 10px;
+  background: white;
+  color: #997fb5;
+  margin: 0 10px;
+}
+.category_wrap {
+    display:flex;
+    align-items: center;
+}
+.s_menu_btn {
+  text-align: center;
+  margin: 0 10px;
+  width: 100px;
+  border:1px solid #997fb5;
+}
+.log_table {
+  width: 85%;
+  margin: 0 auto;
+}
+.log_head {
+  border-bottom: 2px solid #c2b4cd;
+  position: relative;
+}
+.log_title {
+  background: #c2b4cd;
+  color: #fff;
+  text-align: center;
+}
+.log_col {
+  font-weight: 500;
+}
+.category_col:nth-child(2):after {
+  display: none;
+}
+.category_col:after {
+  display: block;
+  content: '';
+  position: absolute;
+  top: 30%;
+  width: 1px;
+  height: 15px;
+  background: #fff;
+}
+tbody {
+  color: #997fb5;
+  font-size:14px;
+}
+.page-btn {
+  background: #997fb5;
+  border: 1px solid #997fb5;
+  color: #fff;
+  margin: 0 15px;
+}
+.page-count {
+  background: #997fb5;
+  color: #fff;
+  padding: 5px 15px;
+}
+
+/* datepicker */
+.v3dp__datepicker {
+    border:1px solid #997fb5;
+}
+.v3dp__input_wrapper {
+    border:none;
+}
+.v3dp__input_wrapper > input {
+  border:none;
+  padding: 5px;
+}
+.log_hidden_date {
+    display: inherit;
+}
+.log_hidden_btn {
+    width: 70px;
+    border:1px solid #997fb5;
+    background:#997fb5;
+    border-radius: 5px;
+    color:white;
+    font-size: 14px;
+    margin-left:15px;
+}

@@ -1,0 +1,172 @@
+.accomplished_container {
+    margin:0 auto;
+}
+.accomplished_btn_wrap {
+    display:flex;
+    justify-content: space-between;
+    padding:0 5px;
+}
+.accomplished_select {
+    width:70px;
+    border:1px solid #997fb5;
+    color:#997fb5;
+    border-radius: 15px;
+    padding:0 5px;
+    margin:0 10px;
+}
+.accomplished_header_btn {
+    border:1px solid #997fb5;
+    background:white;
+    padding:5px 15px;
+    color:#997fb5;
+    border-radius: 2px;
+    margin:0 5px;
+}
+.accomplished_header_right_btn {
+    border:none;
+    background:#dcd4ed;
+    padding:5px 15px;
+    color:white;
+    border-radius: 2px;
+    margin:0 5px;
+}
+/*--------할인코드 추가 모달창---------*/
+.accomplished_modal_container {
+    padding:15px 30px;
+    display: flex;
+    justify-content: space-around;
+}
+.accomplished_modal_container01 {
+    padding:15px 30px;
+}
+.accomplished_modal_title {
+    color:#997fb5;
+    font-size:24px;
+}
+.accomplished_modal_sub_title {
+    font-size:14px;
+    color:#333;
+    line-height:0.5;
+}
+.xlsx_btn {
+    border:none;
+}
+.accomplished_modal_input_wrap {
+    padding:40px 0;
+}
+.accomplished_modal_container02 {
+    padding:15px 30px;
+}
+.accomplished_modal_btn {
+    width: 100%;;
+    border:none;
+    background:#997fb5;
+    color:white;
+    padding:10px 0;
+    border-radius: 10px;
+}
+.accomplished_modal_label {
+    display: block;
+    text-align: right;
+    font-size:14px
+}
+.accomplished_modal_input {
+    width:250px;
+}
+.accomplished_modal_small_input {
+    width: 130px;
+    text-align: center;
+}
+.accomplished_modal_date {
+    border:1px solid #997fb5;
+    margin:10px 0;
+}
+/*--------할인코드 정보 모달창---------*/
+.accomplishedcode_wrap {
+    position: fixed;   
+    position:absolute; padding:20px;
+    top:0; left:40%;
+    z-index: 111;
+    border:1px solid #997fb5;
+    background:white;
+    border-radius: 5px;
+}
+.accomplishedcode_main_wrap {
+    display: flex;
+}
+.accomplishedcode_sub_wrap {
+    width: 100%; background: white;
+    border-radius: 8px;
+}
+.accomplishedcode_main_title {
+    background: none;
+    font-size: 20px;
+    color: #997fb5;
+    width: 200px;
+    height: 100px;
+    text-align: left;
+    border-radius: 15px;
+    margin:0 5px
+}
+.accomplishedcode_text {
+    line-height:0.4
+}
+/* table */
+.accomplished_list_wrap {
+    width: 100%;
+    padding:10px 0;
+    position:relative
+}
+.accomplished_table {
+    width: 88%;
+    margin:0 auto;
+}
+.accomplished_head {
+    background:#997fb5;
+    color:white;
+    padding:10px 0;
+    text-align: center;
+}
+.accomplished_title {
+    background:#c2b4cd;
+    color:#fff;
+}
+.accomplished_col {
+    font-weight: 500;
+    text-align: center;
+    font-size:14px;
+    padding:10px 0;
+    position:relative;
+}
+.accomplished_col:nth-child(1):after {
+    display:none;
+}
+.accomplished_col:after {
+    display: block;
+    content: '';
+    position: absolute;
+    top: 35%;
+    width: 1px;
+    height: 15px;
+    background: #fff;
+}
+.accomplished_data {
+    text-decoration: none;
+    color:#997fb5;
+    padding:5px 0;
+    border-bottom:1px solid #ddd;
+}
+tbody {
+    color:#997fb5;
+}
+.accomplished_end_btn {
+    border:none;
+    background:#ddd;
+    color:rgb(100, 100, 100);
+    padding:5px 15px;
+    border-radius: 5px;
+}
+.savemodal_text {
+    text-align: center;
+    padding:30px 0;
+}

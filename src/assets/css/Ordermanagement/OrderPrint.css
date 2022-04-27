@@ -1,0 +1,379 @@
+.print_container {
+    width: 100%;
+    height:100vh;
+    margin: 0 auto;
+  }
+  .print_container > div {
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    position:relative;
+  }
+  /* .pay_container > div:after {
+    position:absolute;
+    top:-15px;
+    left:0;
+    display: block;
+    content: '';
+    width:100%;
+    height:1px;
+    background:#ddd;
+  } */
+  .print_header_wrap {
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+    color:#997fb5;
+    padding:30px;
+  }
+  .xi-close {
+      cursor: pointer;
+  }
+  .print_text {
+      padding:30px;
+      color:#997fb5;
+  }
+
+  .orderprint_box1,
+  .orderprint_box2 {
+    width: 50%;
+    height:400px;
+    display: inline-block;
+    background:#f5f3f7;
+    border-radius: 5px;
+    margin: 0 100px;
+  }
+  .orderprint_box1 {
+      position:relative;
+  }
+  .orderprint_box2 {
+    overflow:scroll
+  }
+  .print_title {
+    font-size: 16px;
+    font-weight: 500;
+    text-align: left;
+    padding: 15px 15px;
+  }
+  .print_request {
+    text-align: left;
+    margin: 0 15px;
+    padding: 15px 0;
+  }
+  
+  .print_wrap {
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px 15px;
+  }
+  .print_wrap1, .print_wrap2 {
+    float: left;
+  }
+  .print_order_left {
+    text-align: left;
+    color: #333;
+    line-height: 2;
+  }
+  .print_order_right {
+    text-align: end;
+    color: #747474;
+    font-weight: 500;
+    line-height: 2;
+  }
+  .print_menulist_wrap {
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 15px 15px;
+  }
+  .print_menulist_left {
+    float: left;
+  }
+  .print_menulist_right {
+    float: left;
+    text-align: end;
+  }
+  .print_submenu_list {
+    padding:0 20px;
+    text-align: left;
+  }
+  .print_total_price {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .print_order_total {
+    font-size: 18px;
+    padding: 15px 15px;
+  }
+  .print_total_price {
+    padding:15px 15px
+  }
+    /* order cancel btn */
+    .cancel_wrap {
+        position:absolute;
+        bottom:0;
+        left:0;
+        margin:0 auto;
+        width:100%;
+        text-align: center;
+        padding:15px 30px;
+    }  
+    .cancel_btn {
+        background:#dcd4e3;
+        color:#997fb5;
+        border:none;
+    }
+  /* ordersheet print btn */
+  .print_btn-cover {
+    text-align: center;
+    padding-top:30px;
+  }
+  .print_page-btn {
+    border: 1px solid #997fb5;
+    border-bottom:none;
+    border-right:none;
+    background:#f5f3f7;
+    color: #fff;
+  }
+  .print_receipt_btn {
+    width:50%;
+    height:58px;
+    border:1px solid #997fb5;
+    border-bottom:none;
+    border-left:none;
+    border-right:none;
+    color: #997fb5;
+    background:#f5f3f7;
+  }
+
+  .print_page-btn {
+    width:25%;
+    height:58px;
+    border-bottom:none;
+  }
+  .print_page-btn:first-child {
+    border-left:none
+  }
+  .print_page-count {
+    display: none;
+  }
+  .print_btn_icon {
+      color:#997fb5
+  }
+/* cancel_modal_btn */
+.cancel_modal_btn {
+    background:white;
+    border:1px solid #997fb5;
+    color:#997fb5;
+}
+/* modal */
+.modal-title, .modal-sub-title {
+    color:#997fb5;
+}
+.modal-content {
+  border:none;
+}
+/* modal footer box */
+.cancel_btn_wrap {
+    text-align: center;
+}
+.cancelmodal_btn {
+    background:white;
+    border:1px solid #997fb5;
+    color:#997fb5;
+    margin:0 15px;
+}
+.accordion-button {
+    text-align: center;
+    display:block;
+}
+.accordion-button:not(.collapsed) {
+    color:#997fb5;
+    font-size:20px;
+}
+.form-check-input:checked {
+    background-color: #997fb5;
+    border-color: #997fb5  
+}
+.form-check-label {
+    color:#997fb5;
+}
+.accordion-item:last-of-type .accordion-button.collapsed {
+    font-size:20px;
+}
+.accordion-button:focus {
+    font-size:20px;
+}
+.accordion-button::after {
+    display:none;
+}
+.order_radio_btn {
+  padding:0 5px;
+}
+
+  @media print { 
+    html, body {
+        margin:0;
+        padding:0;
+        page-break-after: avoid;
+        page-break-before: avoid
+      }
+      .print_container {
+        width: 100%;
+        margin: 0 auto;
+      }
+      .print_container > div {
+        display: flex;
+        flex-direction: row;
+        align-items:center;
+        position:relative;
+      }
+      .print_header_wrap {
+        display: flex;
+        justify-content: space-between;
+        font-size: 24px;
+        color:#997fb5;
+        padding:30px;
+      }
+      .xi-close {
+          cursor: pointer;
+      }
+      .print_text {
+          padding:0px;
+          color:#997fb5;
+      }
+    
+      .orderprint_box2 {
+        width: 100%;
+        height:500px;
+        background:#f5f3f7;
+        display: inline-block;
+        border: 1px solid #997fb5;
+        border-radius: 5px;
+        margin: 0 100px;
+      }
+      .orderprint_box1 {
+          display:none;
+      }
+      
+      .print_title {
+        font-size: 16px;
+        font-weight: 500;
+        text-align: left;
+        padding: 15px 15px;
+      }
+      .print_request {
+        text-align: left;
+        margin: 0 15px;
+        padding: 15px 0;
+      }
+      
+      .print_wrap {
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 30px 15px;
+      }
+      .print_wrap1, .print_wrap2 {
+        float: left;
+      }
+      .print_order_left {
+        text-align: left;
+        color: #333;
+        line-height: 2;
+      }
+      .print_order_right {
+        text-align: end;
+        color: #747474;
+        font-weight: 500;
+        line-height: 2;
+      }
+      .print_menulist_wrap {
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 15px 15px;
+      }
+      .print_menulist_left {
+        float: left;
+      }
+      .print_menulist_right {
+        float: left;
+        text-align: end;
+      }
+      .print_submenu_list {
+        padding:0 20px;
+        text-align: left;
+      }
+      .print_total_price {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+      }
+      .print_order_total {
+        font-size: 18px;
+        padding: 15px 15px;
+      }
+      .print_total_price {
+        padding:15px 15px
+      }
+        /* order cancel btn */
+        .cancel_wrap {
+            position:absolute;
+            bottom:0;
+            left:0;
+            margin:0 auto;
+            width:100%;
+            text-align: center;
+            padding:15px 30px;
+        }  
+        .cancel_btn {
+            background:#dcd4e3;
+            color:#997fb5;
+            border:none;
+        }
+        /* ordersheet print btn */
+        .print_btn-cover {
+            text-align: center;
+            padding-top:30px;
+        }
+        .print_page-btn {
+            border: 1px solid #997fb5;
+            border-bottom:none;
+            border-right:none;
+            color: #fff;
+        }
+        .print_receipt_btn {
+            width:50%;
+            height:58px;
+            border:1px solid #997fb5;
+            border-bottom:none;
+            border-left:none;
+            border-right:none;
+            color: #997fb5;
+        }
+
+        .print_page-btn {
+            width:25%;
+            height:58px;
+            border-bottom:none;
+        }
+        .print_page-btn:first-child {
+            border-left:none
+        }
+        .print_page-count {
+            display: none;
+        }
+        .print_btn_icon {
+            color:#997fb5
+        }
+    
+  } 

@@ -1,0 +1,151 @@
+.menuedit_container {
+    width: 100%;
+}
+.menuedit_wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:15px 0;
+}
+.menuedit_left {
+    color:#997fb5;
+}
+.menuedit_label {
+    margin:0 10px;
+}
+.menuedit_check {
+    border:#997fb5;
+}
+.menuedit_check_btn {
+    background:#fff;
+    color:#333;
+    font-size:14px;
+    border:1px solid #997fb5;
+    color:#997fb5;
+    padding: 5px 15px;
+    border-radius:3px;
+}
+
+.menu_search {
+    border:1px solid #997fb5;
+    border-radius: 30px;
+    padding:5px 15px;
+}
+.menu_hidden_select {
+    width:150px;
+    border:1px solid #997fb5;
+    color:#997fb5;
+    border-radius: 15px;
+    padding:0 10px;
+    margin:0 10px;
+}
+.menu_hidden_btn {
+    color:#997fb5;
+}
+.cate_menu_btn {
+    padding:5px;
+    margin:0 10px;
+    border:none;
+    border-radius: 3px;
+    color:white;
+    background:rgb(194, 193, 193);
+    font-size:14px;
+}
+.menuedit_menu_btn02 {
+    padding:5px;
+    margin:0 10px;
+    border:none;
+    border-radius: 3px;
+    color:white;
+    background:#c2b4cd;
+    font-size:14px;
+}
+.menuedit_list_wrap {
+    width: 100%;
+}
+.edit_table {
+    width: 88%;
+    margin:0 auto;
+}
+.edit_thead {
+    background:#997fb5;
+    color:white;
+    padding:10px 0;
+    text-align: center;
+}
+.edit_title {
+    background:#c2b4cd;
+    color:#fff;
+}
+.edit_col {
+    font-weight: 500;
+    text-align: center;
+    font-size:14px;
+    padding:10px 0;
+    position:relative;
+}
+.edit_col:nth-child(1):after {
+    display:none;
+}
+.edit_col:after {
+    display: block;
+    content: '';
+    position: absolute;
+    top: 35%;
+    width: 1px;
+    height: 15px;
+    background: #fff;
+}
+
+.edit_data {
+    text-decoration: none;
+    color:#997fb5;
+    padding:5px 0;
+}
+.coffee_img {
+    padding:0 10px;
+    width:150px;
+}
+.coffee_img:hover {
+    transform:scale(2.5)
+}
+tbody {
+    color:#997fb5;
+}
+tr {
+    border-bottom:1px solid #ddd
+}
+.asdf {
+    display:block;
+}
+.cate_connect_btn {
+    background:#e5d4f1;
+    color:#875eb3;
+    border-radius: 3px;
+    border:none;
+    padding:5px;
+}
+.edit_condition {
+    width:90px;
+    border:1px solid #997fb5;
+    color:#997fb5;
+    border-radius:5px;
+    padding: 0 5px;
+}
+.edit_add_wrap {
+    text-align: right;
+    padding:20px;
+}
+.edit_add_btn {
+    background:#997fb5;
+    color:white;
+    border:none;
+    border-radius: 3px;
+    padding:8px 10px
+}
+.btn-cover_menus {
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px 0;
+}
+

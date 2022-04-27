@@ -1,0 +1,96 @@
+.order1-2_wrapper {
+    display: block;
+  }
+  .order1-2_wrapper > ul {
+    list-style: none;
+  }
+  .order1-2_list {
+    float: left;
+    width: 250px;
+    padding: 15px 20px;
+    border: 1px solid #997fb5;
+    border-radius: 15px;
+    margin: 15px 15px;
+  }
+  .order1-2_left {
+    float: left;
+    width: 312px;
+    display: flex;
+    align-items: center;
+  }
+  .order1-2_num {
+    color:#997fb5;
+    font-size:24px;
+  }
+  .order1-2_type {
+    margin:0 10px;
+    padding:3px 10px;
+    border:1px solid #997fb5;
+    background:#997fb5;
+    color:white;
+    font-size:14px;
+    border-radius:15px;
+  }
+  .order1-2_time {
+    font-size:14px;
+    color:#997fb5
+  }
+  .order1-2_middle {
+    display: inline-grid;
+  }
+  .order1-2_middle > span:first-child {
+    font-size:14px;
+    padding:5px 0 0 0 ;
+  }
+  .order1-2_middle > span:nth-child(2) {
+    font-size:14px;
+    color:#997fb5;
+    font-weight: 500;
+    padding:5px 0;
+  }
+  .order1-2_middle > span:last-child {
+    font-size:14px;
+    color:#997fb5;
+    font-weight: 500;
+    padding-bottom:20px;
+  }
+  .order1-2_right {
+    padding: 15px 0;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .order1-2_btn1 {
+    border:1px solid #997fb5;
+    background:white;
+    color:#997fb5;
+    width:100px;
+    height: 70px;
+  }
+  .order1-2_right_inner2 {
+    margin:0 15px;
+  }
+  .order1-2_btn2 {
+    border:1px solid #997fb5;
+    background:#997fb5;
+    width:70px;
+    height: 70px;
+    color:#fff;
+  }
+  .btn-cover {
+    float: left;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px 0;
+  }
+  .page-btn {
+    background:#997fb5;
+    border:1px solid #997fb5;
+    color:#fff;
+    margin:0 15px;
+  }
+  .page-count {
+    background:#997fb5;
+    color:#fff;
+    padding:5px 15px
+  }

@@ -1,0 +1,221 @@
+.menuadd_container {
+    width: 100%;
+}
+.menuadd_title_wrap {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+.menuadd_title {
+    font-size:24px;
+    color:#997fb5;
+}
+.menuadd_close {
+    font-size:24px;
+}
+.menuadd_box_wrap {
+    display:flex;
+}
+.menuadd_wrap {
+    display: block;
+    margin:0 auto;
+}
+.menuadd_label {
+    display: block;
+}
+.menuadd_input {
+    width:300px;
+    margin:0 15px;
+}
+.menuadd_radio {
+    padding:0 15px;
+}
+.menuadd_img_input {
+    text-align: center;
+    padding:15px 0;
+}
+.menuadd_img_add_btn_wrap {
+    padding:15px 0;
+}
+.menuadd_img_add_btn {
+    border:1px solid #997fb5;
+    border-radius:5px;
+    background:white;
+    padding:5px 15px;
+    color:#997fb5;
+}
+.menuadd_img_btn {
+    border: 1px solid #997fb5;
+    color: #997fb5;
+    border-radius: 10px;
+    background: white;
+    padding: 5px;
+    margin: 0 15px;
+    width: 300px;
+}
+.menuadd_btn_wrap {
+    margin:0 auto;
+}
+.menuadd_btn_con {
+    text-align: center;
+    margin:0 auto;
+    padding:30px 0;
+}
+.menuadd_btn {
+    border:1px solid #997fb5;
+    color:white;
+    border-radius: 5px;
+    padding:10px 30px;
+    background: #997fb5;
+    width:80%;
+}
+/* 카테고리설졍 콜랩스*/
+.category_option_wrap {
+    padding:10px 0;
+}
+.category_option_bind {
+    color:#dcd4ec;
+    font-size:14px;
+    padding:10px 0;
+}
+.category_option_add_wrap {
+    display: flex;
+    align-items: stretch;
+}
+.category_option_add_left {
+    margin:0 15px;
+}
+.category_option_add_right {
+}
+.category_option_add_title_wrap {
+    height:76px;
+}
+.category_option_add_title {
+    font-size:20px;
+    color:#997fb5;
+}
+.category_option_add_text {
+    font-size:14px;
+    color:#333;
+    line-height:1;
+}
+.category_option_add_btn_wrap {
+    text-align: center;
+    padding:15px 0;
+}
+.category_option_add_btn {
+    border:1px solid #997fb5;
+    border-radius: 15px;;
+    background:none;
+    color:#333;
+    padding:10px 30px;
+    width:300px;
+}
+.category_option_add_btn02 {
+    border:1px solid #997fb5;
+    border-radius: 15px;;
+    background:none;
+    color:#333;
+    padding:10px 30px;
+    width:100%;
+}
+.category_option_name {
+    text-overflow: ellipsis;
+    font-size:14px;
+    border:1px solid #ddd;
+    color:#333;
+    background:none;
+    border-radius: 10px;
+    padding:5px 10px;
+    width:300px;
+    margin:5px auto;
+    display: block;
+    text-align: left;
+}
+.category_option_name:active {
+    background:#dcd4ec;
+    color:#333;
+}
+.menuadd_edit_btn {
+    background:none;
+    border:1px solid #997fb5;
+    border-radius: 10px;
+    padding:5px 15px;
+    font-size:14px;
+    color:#997fb5
+}
+
+/* 옵션설정 */
+.option_edit_wrap {
+    padding:10px 0;
+}
+.option_edit_bind {
+    color:#dcd4ec;
+    font-size:14px;
+    padding:10px 0;
+}
+.option_edit_add_wrap {
+    display: flex;
+    align-items: stretch;
+}
+.option_edit_add_left {
+    margin:0 15px;
+}
+.option_edit_add_title_wrap {
+    height:106px;
+}
+.option_edit_add_title {
+    font-size:20px;
+    color:#997fb5;
+}
+.option_edit_add_text {
+    font-size:14px;
+    color:#333;
+    line-height:1;
+}
+.option_edit_add_btn_wrap {
+    text-align: center;
+    padding:15px 0;
+}
+.option_edit_add_btn {
+    border:1px solid #997fb5;
+    border-radius: 15px;;
+    background:none;
+    color:#333;
+    padding:10px 30px;
+    width:300px;
+}
+.option_edit_add_btn02 {
+    border:1px solid #997fb5;
+    border-radius: 15px;;
+    background:none;
+    color:#333;
+    padding:10px 30px;
+    width:100%;
+}
+.option_edit_name {
+    text-overflow: ellipsis;
+    font-size:14px;
+    border:1px solid #ddd;
+    background:none;
+    border-radius: 10px;
+    padding:5px 10px;
+    width:300px;
+    margin:5px auto;
+    display: block;
+    text-align: left;
+}
+.option_edit_btn {
+    background:none;
+    border:1px solid #997fb5;
+    border-radius: 10px;
+    padding:5px 15px;
+    font-size:14px;
+    color:#997fb5
+}
+.category_option_wrapper {
+    overflow: scroll;
+    height:400px
+}
+

@@ -1,0 +1,205 @@
+.MenuAddmodify_container {
+    width: 100%;
+}
+.MenuAddmodify_title_wrap {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+.MenuAddmodify_title {
+    font-size:24px;
+    color:#997fb5;
+}
+.MenuAddmodify_close {
+    font-size:24px;
+}
+.MenuAddmodify_box_wrap {
+    display:flex;
+}
+.MenuAddmodify_wrap {
+    display: block;
+    margin:0 auto;
+}
+.MenuAddmodify_label {
+    display: block;
+}
+.MenuAddmodify_input {
+    width:300px;
+    margin:0 15px;
+}
+.MenuAddmodify_radio {
+    padding:0 15px;
+}
+.MenuAddmodify_img_input {
+    text-align: center;
+    padding:15px 0;
+}
+.MenuAddmodify_img_btn {
+    border: 1px solid #997fb5;
+    color: #997fb5;
+    border-radius: 10px;
+    background: white;
+    padding: 5px;
+    margin: 0 15px;
+    width: 300px;
+}
+.MenuAddmodify_menucondition {
+    font-size:14px;
+    color:#333;
+}
+.MenuAddmodify_btn_wrap {
+    margin:0 auto;
+}
+.MenuAddmodify_btn_con {
+    text-align: center;
+    margin:0 auto;
+    padding:30px 0;
+}
+.MenuAddmodify_btn {
+    border:1px solid #997fb5;
+    color:white;
+    border-radius: 5px;
+    padding:10px 30px;
+    background: #997fb5;
+    width:80%;
+}
+/* 카테고리설졍 콜랩스*/
+.category_option_wrap {
+    padding:10px 0;
+}
+.category_option_bind {
+    color:#dcd4ec;
+    font-size:14px;
+    padding:10px 0;
+}
+.category_option_add_wrap {
+    display: flex;
+    align-items: stretch;
+}
+.category_option_add_left {
+    margin:0 15px;
+}
+.category_option_add_right {
+}
+.category_option_add_title_wrap {
+    height:76px;
+}
+.category_option_add_title {
+    font-size:20px;
+    color:#997fb5;
+}
+.category_option_add_text {
+    font-size:14px;
+    color:#333;
+    line-height:1;
+}
+.category_option_add_btn_wrap {
+    text-align: center;
+    padding:15px 0;
+}
+.category_option_add_btn {
+    border:1px solid #997fb5;
+    border-radius: 15px;;
+    background:none;
+    color:#333;
+    padding:10px 30px;
+    width:300px;
+}
+.category_option_add_btn02 {
+    border:1px solid #997fb5;
+    border-radius: 15px;;
+    background:none;
+    color:#333;
+    padding:10px 30px;
+    width:100%;
+}
+.category_option_name {
+    text-overflow: ellipsis;
+    font-size:14px;
+    border:1px solid #ddd;
+    background:none;
+    border-radius: 10px;
+    padding:5px 10px;
+    width:300px;
+    margin:5px auto;
+    display: block;
+    text-align: left;
+}
+.MenuAddmodify_edit_btn {
+    background:none;
+    border:1px solid #997fb5;
+    border-radius: 10px;
+    padding:5px 15px;
+    font-size:14px;
+    color:#997fb5
+}
+
+/* 옵션설정 */
+.option_edit_wrap {
+    padding:10px 0;
+}
+.option_edit_bind {
+    color:#dcd4ec;
+    font-size:14px;
+    padding:10px 0;
+}
+.option_edit_add_wrap {
+    display: flex;
+    align-items: stretch;
+}
+.option_edit_add_left {
+    margin:0 15px;
+}
+.option_edit_add_title_wrap {
+    height:106px;
+}
+.option_edit_add_title {
+    font-size:20px;
+    color:#997fb5;
+}
+.option_edit_add_text {
+    font-size:14px;
+    color:#333;
+    line-height:1;
+}
+.option_edit_add_btn_wrap {
+    text-align: center;
+    padding:15px 0;
+}
+.option_edit_add_btn {
+    border:1px solid #997fb5;
+    border-radius: 15px;;
+    background:none;
+    color:#333;
+    padding:10px 30px;
+    width:300px;
+}
+.option_edit_add_btn02 {
+    border:1px solid #997fb5;
+    border-radius: 15px;;
+    background:none;
+    color:#333;
+    padding:10px 30px;
+    width:100%;
+}
+.option_edit_name {
+    text-overflow: ellipsis;
+    font-size:14px;
+    border:1px solid #ddd;
+    background:none;
+    border-radius: 10px;
+    padding:5px 10px;
+    width:300px;
+    margin:5px auto;
+    display: block;
+    text-align: left;
+}
+.option_edit_btn {
+    background:none;
+    border:1px solid #997fb5;
+    border-radius: 10px;
+    padding:5px 15px;
+    font-size:14px;
+    color:#997fb5
+}

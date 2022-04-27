@@ -1,0 +1,193 @@
+.proceeding_container {
+    margin:0 auto;
+}
+.proceeding_btn_wrap {
+    display:flex;
+    justify-content: space-between;
+    padding:0 5px;
+}
+.proceeding_header_btn {
+    border:1px solid #997fb5;
+    background:white;
+    padding:5px 15px;
+    color:#997fb5;
+    border-radius: 2px;
+    margin:0 5px;
+}
+.proceeding_header_right_btn {
+    border:none;
+    background:#dcd4ed;
+    padding:5px 15px;
+    color:white;
+    border-radius: 2px;
+    margin:0 5px;
+}
+/*--------할인코드 추가 모달창---------*/
+.proceeding_modal_container {
+    padding:15px 30px;
+    display: flex;
+    justify-content: space-around;
+}
+.proceeding_modal_container01 {
+    padding:15px 30px;
+}
+.proceeding_modal_title {
+    color:#997fb5;
+    font-size:24px;
+}
+.proceeding_modal_sub_title {
+    font-size:14px;
+    color:#333;
+    line-height:0.5;
+}
+.xlsx_btn {
+    border:none;
+}
+.proceeding_modal_input_wrap {
+    padding:40px 0;
+}
+.proceeding_modal_container02 {
+    padding:15px 30px;
+}
+.proceeding_modal_btn {
+    width: 100%;;
+    border:none;
+    background:#997fb5;
+    color:white;
+    padding:10px 0;
+    border-radius: 10px;
+}
+.proceeding_modal_label {
+    display: block;
+    text-align: right;
+    font-size:14px
+}
+.proceeding_modal_input {
+    width:250px;
+}
+.proceeding_modal_small_input {
+    width: 130px;
+    text-align: center;
+}
+.proceeding_modal_date {
+    border:1px solid #997fb5;
+    margin:10px 0;
+}
+/*--------할인코드 정보 모달창---------*/
+.discountinfo_wrap {
+    position: fixed;   
+    position:absolute; padding:20px;
+    top:0; left:40%;
+    z-index: 111;
+    border:1px solid #997fb5;
+    background:white;
+    border-radius: 5px;
+}
+.discountinfo_main_wrap {
+    display: flex;
+}
+.discountinfo_sub_wrap {
+    width: 100%; background: white;
+    border-radius: 8px;
+}
+.discountinfo_main_title {
+    background: none;
+    font-size: 20px;
+    color: #997fb5;
+    width: 200px;
+    height: 100px;
+    text-align: left;
+    border-radius: 15px;
+    margin:0 5px
+}
+.discountinfo_text {
+    line-height:0.4
+}
+/* table */
+.proceeding_list_wrap {
+    padding:10px 0;
+    position:relative;
+    overflow: hidden;
+}
+.proceeding_table {
+    width: 100%;
+    margin:0 auto;
+}
+.proceeding_head {
+    background:#997fb5;
+    color:white;
+    padding:10px 0;
+    text-align: center;
+}
+.proceeding_title {
+    background:#c2b4cd;
+    color:#fff;
+}
+.proceeding_col {
+    font-weight: 500;
+    text-align: center;
+    font-size:14px;
+    padding:10px 0;
+    position:relative;
+}
+.proceeding_col:nth-child(1):after {
+    display:none;
+}
+.proceeding_col:after {
+    display: block;
+    content: '';
+    position: absolute;
+    top: 35%;
+    width: 1px;
+    height: 15px;
+    background: #fff;
+}
+.proceeding_data {
+    text-decoration: none;
+    color:#997fb5;
+    padding:5px 0;
+    border-bottom:1px solid #ddd;
+}
+tbody {
+    color:#997fb5;
+}
+.proceeding_end_btn {
+    border:none;
+    background:#ddd;
+    color:rgb(100, 100, 100);
+    padding:5px 15px;
+    border-radius: 5px;
+}
+.subError02{
+    height: 15px;
+    color: red;
+    display:inline-block;
+    margin-top: 10px;
+    margin-bottom: 10px;    
+    font-size:12px;
+}
+.discount{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 50px;
+    background-color: #3b5998;
+    color: white;
+}
+
+.discount:hover{
+    opacity: 0.9;
+}
+.error_xlsx_box {
+    margin-top: 9px;
+    margin-left: 0px;
+    font-size: 12px;
+    color: red;
+}
+  .file_add_btn {
+      border:1px solid #333;
+      border-radius: 3px;
+      margin:0 10px;
+  }

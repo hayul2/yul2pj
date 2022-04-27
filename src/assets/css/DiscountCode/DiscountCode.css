@@ -1,0 +1,35 @@
+.discount_container {
+    margin:0 auto;
+  }
+  .discount_wrap {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:15px 15px
+  }  
+.discount_main_text {
+    color:#997fb5;
+    font-size:36px;
+}
+.discount_router_wrap {
+  padding:15px 0;
+  margin:0 auto;
+  position:relative;
+  width: 80%;
+}
+.discount_router_name {
+  margin:0 30px;
+  color:#997fb5;
+  position:relative;
+}
+/* .discount_router_name:first-child {
+  margin-left:15px;
+} */
+.router-link-exact-active {
+  border-bottom:10px solid #997fb5;
+  padding:25px 0;
+}
+.router-link-exact-active:first-child {
+  border-bottom:none;
+  padding:0.5rem 0;
+}

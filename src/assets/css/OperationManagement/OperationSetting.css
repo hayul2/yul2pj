@@ -1,0 +1,670 @@
+.oper_set_container {
+    width: 100%;
+    padding:50px 0;
+}
+.operset_text {
+    font-size:20px;
+    display:flex;
+    padding:0 15px;
+}
+/*/////-------
+                영업시간
+-------/////*/
+.oper_modal_container {
+    width: 100%;
+    margin:0 auto;
+}
+.oper_modal_wrapper {
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.oper_modal_oper_box {
+    padding:0 10px;
+}
+.oper_modal_one > p {
+    font-size:14px;
+    line-height:0.7;
+}
+.oper_modal_text {
+    padding:15px 0;
+    font-size:20px;
+    color:#997fb5;
+}
+.input_day {
+    display: block;
+    line-height:3;
+    padding-right:5px;
+}
+/* datepicker */
+.dp__pointer {
+    text-align: center;
+}
+.dp__input_wrap {
+    width:100%;
+}
+.oper_timebtn {
+    display: block;
+    width:310px;
+    height:50px;
+    border-radius: 5px;
+    border:1px solid #997fb5;
+    background:white;
+    color:#333;
+    margin:15px auto;
+    padding:0 15px;
+}
+
+.regular_circle {
+    float:right;
+    line-height:1.5;
+    color:#997fb5;
+}
+.btn_inner_text {
+    float:left
+}
+.oper_sub_btnbox {
+    display: flex;
+    flex-direction: column;
+}
+.opentime_addbtn {
+    width:350px;
+    height:40px;
+    margin:5px 0;
+    border:1px solid #997fb5;
+    border-radius:5px;
+    background:white;
+    color:#997fb5;
+    font-size: 14px;
+}
+.opentime_addbtntwo {
+    width:350px;
+    height:40px;
+    margin:5px 0;
+    border:1px solid #997fb5;
+    border-radius:5px;    
+    background:#997fb5;
+    color:white;
+    font-size: 14px;
+}
+.oper_time {
+    width:130px
+}
+.oper_time_icon {
+    float:right;
+    line-height:1.3;
+    color:#997fb5;
+    font-size:20px
+}
+/*  요일체크1 */
+.oper_sub_modal_wrap {
+    display:block;
+}
+.oper_modal_two {
+    padding:30px;
+    border-radius: 3px;
+}
+/* 평일 주말 버튼 시작 */
+.dayFiveBtn {
+    
+}
+.day_Five1, .day_Five2 {
+    display: none;
+}
+.day_Five1+.dayFive_Label1,
+.day_Five2+.dayFive_Label2 {
+    margin: 0 7px;
+    padding:15px;
+    border:1px solid #dcd4e3;
+    background:url('../../img/dayfive_off.jpg') no-repeat 0 0px / contain;
+}
+.day_Five1:checked+.dayFive_Label1 {
+    background:url('../../img/dayfive_on.jpg') no-repeat 0 0px / contain;
+}
+.day_Five2+.dayFive_Label2 {
+    background:url('../../img/holyday_off.jpg') no-repeat 0 0px / contain;
+}
+.day_Five2:checked+.dayFive_Label2 {
+    background:url('../../img/holyday_on.jpg') no-repeat 0 0px / contain;
+}
+/* 평일 주말 버튼 끝 */
+
+/* 요일 체크 버튼 시작 */
+.day_btn1,.day_btn2,.day_btn3,.day_btn4,.day_btn5,.day_btn6,.day_btn7 {
+    display:none;
+}
+.day_btn1+.day_label1,
+.day_btn2+.day_label2,
+.day_btn3+.day_label3,
+.day_btn4+.day_label4,
+.day_btn5+.day_label5,
+.day_btn6+.day_label6,
+.day_btn7+.day_label7 {
+    margin:0 7px;
+    padding:15px;
+    width: 30px;
+    height: 30px;
+    border:1px solid #dcd4e3;
+    background:url('../../img/day1_off.jpg') no-repeat 0 0px / contain;
+}
+.day_btn1:checked+.day_label1 {
+    background:url('../../img/day1_on.jpg') no-repeat 0 0px / contain;
+}
+.day_btn2+.day_label2 {
+    background:url('../../img/day2_off.jpg') no-repeat 0 0px / contain;
+}
+.day_btn2:checked+.day_label2 {
+    background:url('../../img/day2_on.jpg') no-repeat 0 0px / contain;
+}
+.day_btn3+.day_label3 {
+    background:url('../../img/day3_off.jpg') no-repeat 0 0px / contain;
+}
+.day_btn3:checked+.day_label3 {
+    background:url('../../img/day3_on.jpg') no-repeat 0 0px / contain;
+}
+.day_btn4+.day_label4 {
+    background:url('../../img/day4_off.jpg') no-repeat 0 0px / contain;
+}
+.day_btn4:checked+.day_label4 {
+    background:url('../../img/day4_on.jpg') no-repeat 0 0px / contain;
+}
+.day_btn5+.day_label5 {
+    background:url('../../img/day5_off.jpg') no-repeat 0 0px / contain;
+}
+.day_btn5:checked+.day_label5 {
+    background:url('../../img/day5_on.jpg') no-repeat 0 0px / contain;
+}
+.day_btn6+.day_label6 {
+    background:url('../../img/day6_off.jpg') no-repeat 0 0px / contain;
+}
+.day_btn6:checked+.day_label6 {
+    background:url('../../img/day6_on.jpg') no-repeat 0 0px / contain;
+}
+.day_btn7+.day_label7 {
+    background:url('../../img/day7_off.jpg') no-repeat 0 0px / contain;
+}
+.day_btn7:checked+.day_label7 {
+    background:url('../../img/day7_on.jpg') no-repeat 0 0px / contain;
+}
+/* 요일 체크 버튼 끝*/
+.form-check {
+    float:right;
+}
+.form-check-label {
+    text-align:left;
+}
+.oper_switch {
+    padding:10px 5px;
+}
+.starttime {
+    padding-right:30px;
+}
+.Stime {
+    width:90px;
+    border:1px solid #997fb5;
+    margin-left:5px;
+    padding:5px;
+    color:#997fb5;
+}
+.startime_wrap {
+    padding:20px 0;
+}
+.starttime_box {
+    padding:10px 0;
+}
+.time_btn_wrap {
+    text-align: center;
+    padding:15px 0;
+}
+.time_btn {
+    width:125px;
+    height: 40px;
+    background:#997fb5;
+    border:1px solid #997fb5;
+    color:white;
+    margin:0 10px;
+}
+.time_btntwo {
+    width:125px;
+    height: 40px;
+    background:rgba(177, 176, 176, 0.5);
+    border:none;
+    color:#333;
+    margin:0 10px;
+}
+/* 주말시간 */
+.oper_modal_three {
+    margin-top:30px;
+    border:1px solid #ddd;
+    border-radius: 3px;
+    padding:30px;
+}
+.Weekend_btn {
+    width: 35px;
+    margin: 0 3px;
+    background: #997fb5;
+    color: white;
+    border: 1px solid #997fb5;
+}
+.Weekend_btn:active {
+    background:white;
+    color:#997fb5;
+    border:1px solid #997fb5;
+}
+.form-check {
+    float:right;
+}
+.form-check-label {
+    text-align:left;
+}
+.oper_switchtwo {
+    padding:15px 0;
+}
+.starttimetwo {
+    padding-right:30px;
+}
+.Stimetwo {
+    width:90px;
+    border:1px solid #997fb5;
+    margin:0 5px;
+    padding:5px;
+    color:#997fb5;
+}
+.startime_wrap_two {
+    padding:30px 0;
+}
+.starttime_box_two {
+    padding:5px 0;
+}
+.time_btn_wrap_two {
+    text-align: center;
+    padding:15px 0;
+}
+.time_btn_two {
+    width:125px;
+    height: 40px;
+    background:#997fb5;
+    border:1px solid #997fb5;
+    color:white;
+    margin:0 10px;
+}
+.time_btn_ttwo {
+    width:125px;
+    height: 40px;
+    background:rgba(177, 176, 176, 0.5);
+    border:none;
+    color:#333;
+    margin:0 10px;
+}
+/*/////-------
+                준비시간
+-------/////*/
+
+#break_container {
+    width: 100%;
+    margin:0 auto;
+}
+.break_wrapper {
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.break_text {
+    padding:15px 0;
+    font-size:20px;
+    color:#997fb5;
+}
+.break_timebtn {
+    display: block;
+    width:350px;
+    height:50px;
+    border-radius: 5px;
+    border:1px solid #997fb5;
+    background:white;
+    color:#333;
+    margin:15px auto;
+    padding:0 15px;
+}
+
+/* .xi-minus-circle-o {
+    float:right;
+    line-height:1.5;
+    color:#997fb5;
+} */
+.btn_inner_text {
+    float:left
+}
+.break_btnbox {
+    display: flex;
+    flex-direction: column;
+}
+/*  요일체크1 */
+.break__wrap {
+    display:block;
+}
+.break__two {
+    padding:30px;
+    border-radius: 3px;
+}
+.break_switch {
+    padding:15px 0;
+}
+.form-check {
+    float:right;
+}
+.form-check-label {
+    text-align:left;
+}
+.time_input {
+    display: block;
+    float: left;
+    margin: 0 10px 0 0;
+    width: 120px;
+}
+.time_inputTwo {
+    width: 120px;
+}
+.date_input {
+    margin: 0 10px 0 0;
+    width: 120px;
+}
+.date_inputTwo {
+    margin: 0 10px 0 0;
+    width: 120px;
+}
+.break_time_icon {
+    float: right;
+    line-height: 1.3;
+    color: #997fb5;
+    font-size: 20px;
+}
+
+.breaktime {
+    padding-right:30px;
+}
+.Btime {
+    width:90px;
+    border:1px solid #997fb5;
+    margin-left:5px;
+    padding:5px;
+    color:#997fb5;
+}
+.breaktime_wrap {
+    padding:20px 0;
+}
+.breaktime_box {
+    padding:10px 0;
+}
+.break_time_btn_wrap {
+    text-align: center;
+    padding:15px 0;
+}
+.break_add_btn {
+    width:130px;
+    height: 40px;
+    background:#997fb5;
+    border:1px solid #997fb5;
+    color:white;
+}
+.break_close_btn {
+    width:125px;
+    height: 40px;
+    background:rgba(177, 176, 176, 0.5);
+    border:none;
+    color:#333;
+    margin:0 10px;
+}
+
+/*/////-------
+                정기휴무
+-------/////*/
+
+.regular_container {
+    width: 100%;
+    margin:0 auto;
+}
+.regular_wrapper {
+    display:flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+.regular_text {
+    padding:15px 0;
+    font-size:20px;
+    color:#997fb5;
+}
+.regular_one > p {
+    font-size:14px;
+    line-height:0.7;
+}
+/*  요일체크1 */
+.regular_wrap {
+    display:block;
+}
+.regular_two {
+    padding:30px;
+    border-radius: 3px;
+}
+.regular_switch {
+    padding:10px 5px;
+}
+.form-check {
+    float:right;
+}
+.form-check-label {
+    text-align:left;
+}
+.Rday {
+    width:125px;
+    border:1px solid #997fb5;
+    margin-left:5px;
+    color:#997fb5;
+    padding:0 5px;
+}
+.regular_wrap {
+    padding:20px 0;
+}
+.regular_box {
+    padding:10px 0;
+    text-align: center;
+}
+.regular_circle {
+    font-size:20px;
+    cursor: pointer;
+    margin:0 5px;
+}
+.regular_btn_wrap {
+    text-align: center;
+    padding:15px 0;
+}
+.regular_add_btn {
+    width:125px;
+    height: 40px;
+    background:#997fb5;
+    border:1px solid #997fb5;
+    color:white;
+    margin:0 10px;
+}
+.regular_close_btn {
+    width:125px;
+    height: 40px;
+    background:rgba(177, 176, 176, 0.5);
+    border:none;
+    color:#333;
+    margin:0 10px;
+}
+/*/////-------
+                임시휴무
+-------/////*/
+
+.temporary_container {
+    width: 100%;
+    margin:0 auto;
+}
+.temporary_wrapper {
+    display:flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+.temporary_text {
+    padding:15px 0;
+    font-size:20px;
+    color:#997fb5;
+}
+.temporary_one > p {
+    font-size:14px;
+    line-height:0.7;
+}
+.temporary_reason_text {
+    font-size:14px;
+}
+.temporary_form_box {
+    padding:5px 0;
+    font-size:14px;
+}
+.temporary_form_lebel {
+    padding:0 5px;
+    margin-top:0;
+}
+.temporary_form_text {
+    width:320px;
+    border:1px solid #c2c2c2;
+    border-radius:3px;
+    padding:5px;
+    font-size:14px;
+}
+.temporary_date {
+    font-size:14px;
+    width: 150px;
+}
+.temporary_time {
+    width: 150px;
+    padding:0 3px;
+    font-size:14px;
+}
+/*  요일체크1 */
+.temporary_wrap {
+    display:block;
+}
+.temporary_two {
+    padding:30px;
+    border-radius: 3px;
+}
+.temporary_switch {
+    padding:10px 5px;
+}
+.form-check {
+    float:right;
+}
+.form-check-label {
+    text-align:left;
+}
+.regular_label {
+    margin-top:0;
+}
+.temporary_day_box {
+    padding:30px 0;
+}
+.Tday {
+    width:120px;
+    border:1px solid #997fb5;
+    margin-left:5px;
+    padding:5px;
+    color:#997fb5;
+}
+.temporary_wrap {
+    padding:20px 0;
+}
+.temporary_box {
+    padding:10px 0;
+    text-align: center;
+}
+.temporarytime {
+    padding-right:15px;
+}
+.Ttime {
+    width:135px;
+    border:1px solid #997fb5;
+    margin-left:5px;
+    padding:4px;
+    color:#997fb5;
+}
+.temporary_timebtn_box {
+    margin:15px 0;
+}
+.temporary_time_text {
+    padding-top:10px;
+}
+.tbtn_inner_text {
+    float:left;
+    padding: 0 15px;
+    line-height: 2;
+}
+.temporary_timebtn {
+    width: 300px;
+    height:40px;
+    border:1px solid #997fb5;
+    border-radius: 3px;
+    background:none;
+    color:#997fb5;
+}
+
+.temporary_btn_wrap {
+    text-align: center;
+    padding:20px 0;
+}
+.temporary_add_btn {
+    width:100%;
+    height: 40px;
+    background:#997fb5;
+    border:1px solid #997fb5;
+    border-radius:5px;
+    color:white;
+}
+
+.wrapper {
+    position:relative;
+}
+#switch {
+    position:absolute;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+.switch_label {
+    position:relative;
+    cursor: pointer;
+    display:inline-block;
+    width: 40px;
+    height: 18px;
+    background:white;
+    border:2px solid #ddd;
+    border-radius:20px;
+    transition: .2s;
+}
+.switch_label:hover {
+    background:#f5f3f7;
+}
+.onf_btn {
+    position: absolute;
+    top: 1px;
+    left: 2px;
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 20px;
+    background: #ddd;
+    transition: .2s;
+}
+#switch:checked+.switch_label {
+    background:#997fb5;
+    border:2px solid #997fb5;
+}
+#switch:checked+.switch_label:hover {
+    background:#997fb5;
+}
+#switch:checked+.switch_label .onf_btn {
+    left: 23px;
+    background:white;
+    box-shadow:1px 2px 3px #00000020;
+}

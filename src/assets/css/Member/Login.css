@@ -1,0 +1,209 @@
+.container_fluid {
+    width:500px;
+    margin:0 auto;
+    padding:50px 0;
+  }
+  /* 입력폼 */
+  .login_wrap {
+    padding-bottom:100px;
+  }
+  input:focus {
+    outline: none;
+  }
+  .member_text {
+    color:#997fb5;
+    text-align: center;
+    font-size:30px;
+  }
+  .join_title {
+    margin: 19px 0 8px;
+    font-size: 14px;
+    font-weight: 700;
+  }
+  .box {
+    display: block;
+    width: 100%;
+    height: 51px;
+    border: solid 1px #dadada;
+    padding: 10px 14px 10px 14px;
+    box-sizing: border-box;
+    background: #fff;
+    position: relative;
+  }
+  .int {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 29px;
+    border: none;
+    background: #fff;
+    font-size: 15px;
+  }
+  input {
+    font-family: Dotum,'돋움',Helvetica,sans-serif;
+  }
+  .box.int_id {
+    padding-right: 110px;
+  }
+  .box.int_pass {
+    padding-right: 40px;
+  }
+  .box.int_pass_check {
+    padding-right: 40px;
+  }
+  .step_url {
+    /*@naver.com*/
+    position: absolute;
+    top: 16px;
+    right: 13px;
+    font-size: 14px;
+    color: red;
+  }
+  .pswd_box {
+    padding-bottom:30px;
+  }
+  .pswdImg {
+    width: 18px;
+    height: 20px;
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    right: 16px;
+    margin-top: -10px;
+    cursor: pointer;
+  }
+  /* Check*/
+  .login_check_wrap {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 16px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    color:#997fb5;
+  }
+  /* Hide the browser's default checkbox */
+  .login_check_wrap input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  /* Create a custom checkbox */
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #f2f2f2;
+    border:1px solid #997fb5;
+    border-radius: 100%;
+  }
+  /* On mouse-over, add a grey background color */
+  .login_check_wrap:hover input ~ .checkmark {
+    background-color: #f2f2f2;
+  }
+  /* When the checkbox is checked, add a blue background */
+  .login_check_wrap input:checked ~ .checkmark {
+    background-color: #997fb5;
+  }
+  /* Create the checkmark/indicator (hidden when not checked) */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  /* Show the checkmark when checked */
+  .login_check_wrap input:checked ~ .checkmark:after {
+    display: block;
+  }
+  /* Style the checkmark/indicator */
+  .login_check_wrap .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+  #bir_wrap {
+    display: table;
+    width: 100%;
+  }
+  #bir_yy {
+    display: table-cell;
+    width: 147px;
+  }
+  #bir_mm {
+    display: table-cell;
+    width: 147px;
+    vertical-align: middle;
+  }
+  #bir_dd {
+    display: table-cell;
+    width: 147px;
+  }
+  #bir_mm, #bir_dd {
+    padding-left: 10px;
+  }
+  select {
+    width: 100%;
+    height: 29px;
+    font-size: 15px;
+    background: #fff url(https://static.nid.naver.com/images/join/pc/sel_arr_2x.gif) 100% 50% no-repeat;
+    background-size: 20px 8px;
+    -webkit-appearance: none;
+    display: inline-block;
+    text-align: start;
+    border: none;
+    cursor: default;
+    font-family: Dotum,'돋움',Helvetica,sans-serif;
+  }
+  /* 에러메세지 */
+  .error_next_box {
+    margin-top: 9px;
+    font-size: 12px;
+    color: red;
+  }
+  #alertTxt {
+    position: absolute;
+    top: 19px;
+    right: 38px;
+    font-size: 12px;
+    color: red;
+  }
+  /* 버튼 */
+  .btn_area {
+    margin: 30px 0 30px;
+  }
+  #btnJoin {
+    width: 100%;
+    padding: 21px 0 17px;
+    border: 0;
+    cursor: pointer;
+    color: #fff;
+    background-color: #997fb5;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: Dotum,'돋움',Helvetica,sans-serif;
+  }
+  .login_text {
+    margin: 0 auto;
+    text-align: center;
+  }
+  .member {
+    color:#997fb5;
+  }
+  .login_bottom {
+    text-align: center;
+    color:#997fb5;
+  }

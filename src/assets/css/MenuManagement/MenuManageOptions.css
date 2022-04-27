@@ -1,0 +1,187 @@
+.menuoption_container {
+    width: 100%;
+}
+.menuoption_wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:15px 0;
+}
+.menuoption_left {
+    color:#997fb5;
+}
+.menuoption_label {
+    margin:0 10px;
+}
+.menuoption_check {
+    border:#997fb5;
+}
+.menuoption_check_btn {
+    background:#fff;
+    color:#333;
+    font-size:14px;
+    border:1px solid #997fb5;
+    color:#997fb5;
+    padding: 5px 15px;
+    border-radius:3px;
+}
+
+.menuoption_search {
+    border:1px solid #997fb5;
+    border-radius: 30px;
+    padding:5px 15px;
+}
+.menuoption_hidden_select {
+    width:150px;
+    border:1px solid #997fb5;
+    color:#997fb5;
+    border-radius: 15px;
+    padding:0 10px;
+    margin:0 10px;
+}
+.menuoption_hidden_btn {
+    color:#997fb5;
+}
+.cate_menu_btn {
+    padding:5px;
+    margin:0 10px;
+    border:none;
+    border-radius: 3px;
+    color:white;
+    background:rgb(194, 193, 193);
+    font-size:14px;
+}
+.menuoption_menu_btn02 {
+    padding:5px;
+    margin:0 10px;
+    border:none;
+    border-radius: 3px;
+    color:white;
+    background:#c2b4cd;
+    font-size:14px;
+}
+.menuoption_list_wrap {
+    width: 100%;
+}
+.menuoption_table {
+    width: 88%;
+    margin:0 auto;
+}
+.menuoption_thead {
+    background:#997fb5;
+    color:white;
+    padding:10px 0;
+    text-align: center;
+}
+.menuoption_title {
+    background:#c2b4cd;
+    color:#fff;
+}
+.menuoption_col {
+    font-weight: 500;
+    text-align: center;
+    font-size:14px;
+    padding:10px 0;
+    position:relative;
+}
+.menuoption_col:nth-child(1):after {
+    display:none;
+}
+.menuoption_col:after {
+    display: block;
+    content: '';
+    position: absolute;
+    top: 35%;
+    width: 1px;
+    height: 15px;
+    background: #fff;
+}
+
+.menuoption_data {
+    text-decoration: none;
+    color:#997fb5;
+    padding:5px 0;
+    border-bottom:1px solid #ddd;
+}
+tbody {
+        color:#997fb5;
+}
+.menuoption_connect_btn {
+    border:none;
+    background:#c2b4cd;
+    color:#997fb5;
+    border-radius: 10px;
+    padding:5px 10px;
+}
+.menuoption_condition {
+    width:90px;
+    border:1px solid #997fb5;
+    color:#997fb5;
+    border-radius:5px;
+    padding: 0 5px;
+}
+.menuoption_data_box {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+.menuoption_icon {
+    width: 30px;
+    border:none;
+    background:none;
+    color:#997fb5;
+}
+.menuoption_add_wrap {
+    text-align: right;
+    padding:20px;
+}
+.menuoption_add_btn {
+    background:#997fb5;
+    color:white;
+    border:none;
+    border-radius: 3px;
+    padding:8px 10px
+}
+/* 옵션추가 오프캔버스 */
+.menuoption_off_title {
+    color:#997fb5;
+}
+.option_subtitle {
+    font-size:14px;
+    color:#997fb5;
+    text-align: left;
+}
+.menuoption_add_btn {
+    width: 100%;
+    border:none;
+    background:#c2b4cd;
+    color:white;
+}
+.menuoption_form_label {
+    display: block;
+}
+.menuoption_input {
+    margin-right:5px;
+}
+#menuoption_Label {
+    color:#997fb5;
+}
+.menuoptions_add_wrap {
+    text-align: right;
+    padding:15px;
+}
+.menuoptions_add_btn {
+    border:none;
+    border-radius: 5px;
+    padding:5px 10px;
+    background:#997fb5;
+    color:white;
+}
+.subError04{
+    height: 15px;
+    color: red;
+    margin-top: 5px;
+    margin-bottom: 10px;    
+    font-size:12px;
+}

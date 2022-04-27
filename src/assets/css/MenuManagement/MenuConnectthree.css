@@ -1,0 +1,39 @@
+.connectmenu_text_wrap {
+    display:flex;
+    padding: 0 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+.connectmenu_title {
+    color:#997fb5;
+    padding:15px 0;
+}
+.connectmenu_text {
+    font-size: 14px;
+    color: #333;
+    line-height: 0.3;
+}
+.connect_drag_wrap {
+    width:90%;
+    margin:0 auto;
+    padding:15px 0;
+}
+.menuconnect_drag_text {
+    font-size:14px;
+    overflow: scroll;
+}
+.menuconnect_drag_text:before {
+    position:absolute;
+    display: block;
+    content: "\e960";
+}
+.menucon_cross_btn_wrap {
+    text-align: center;
+}
+.menucon_cross_btn {
+    border:none;
+    background:#dcd4e3;
+    color:#fff;
+    padding:10px;
+    width:480px;
+}
