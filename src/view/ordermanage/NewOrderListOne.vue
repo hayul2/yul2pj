@@ -1,4 +1,5 @@
 <template>
+<!--주문관리 신규주문 리스트정렬 화면-->
   <div class="list_wrap">
     <router-link to="/ordermanagement/neworderlistone"><i class="xi-list-square list"></i></router-link>
     <router-link to="/ordermanagement/neworderlisttwo"><i class="xi-apps list"></i></router-link>
@@ -18,6 +19,7 @@
           <div class="order_middle">
             <span>[메뉴{{orderData.categories}}1개]</span>
             <span>[{{orderData.menu}}]</span>
+            <!-- <span>{{}}진짜 진한 바닐라 리얼딥 1 / 진짜 진한 돌체 리얼딥 1</span> -->
             <span>{{}}요청사항</span>
             <span>{{}}바닐라 라떼는 샷 연하게 해주세요 :)</span>
           </div>
@@ -26,7 +28,7 @@
       <router-link to="/OrderPrint" class="order_right_inner"><span>준비중</span></router-link>
     </div>
   </div>
-      <div class="new-btn-cover">
+      <!-- <div class="new-btn-cover">
       <button :disabled="pageNum === 0" @click="prevPage" class="new-page-btn">
         <i class="xi-angle-left"></i>
       </button>
@@ -38,7 +40,7 @@
       >
         <i class="xi-angle-right"></i>
       </button>
-    </div>
+    </div> -->
 
 
 </template>
@@ -52,9 +54,11 @@ export default {
     };
   },
   methods: {
+      //다음 페이지
       nextPage() {
         this.pageNum += 1;
       },
+      //이전 페이지
       prevPage() {
         this.pageNum -= 1;
       },

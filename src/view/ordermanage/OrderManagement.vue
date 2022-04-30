@@ -1,4 +1,5 @@
 <template>
+<!--주문관리 첫 화면-->
   <Navbar />
   <div class="ordermanage_container">
     <div class="main_wrap">

@@ -1,4 +1,5 @@
 <template>
+<!--할인코드 첫 화면-->
 <Navbar />
     <div class="discount_container">    
       <div class="discount_wrap">

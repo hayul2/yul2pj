@@ -1,4 +1,5 @@
 <template>
+<!--주문관리 준비중 리스트정렬 화면-->
   <div class="list_wrap">
     <router-link to="/ordermanagement/preparinglistone"><i class="xi-list-square list"></i></router-link>
     <router-link to="/ordermanagement/preparinglisttwo"><i class="xi-apps list"></i></router-link>
@@ -23,6 +24,7 @@
     </div>
     <div class="order_right">
       <router-link to="/OrderPrint" class="order_right_inner"><span>주문표 인쇄</span></router-link>
+      <!--메뉴완료 버튼 클릭시 완료주문으로 이동-->
       <router-link to="/OrderPrint" class="order_right_inner"><span>메뉴완료</span></router-link>
     </div>
   </div>

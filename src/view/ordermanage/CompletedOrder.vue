@@ -1,4 +1,5 @@
 <template>
+<!--주문관리 완료주문 화면창-->
   <div class="pay_container">
     <div>
       <div class="complete_box1">
@@ -111,9 +112,11 @@ export default {
     };
   },
   methods: {
+    //다음 페이지
     nextPage() {
       this.orderpageNum += 1;
     },
+    //이전 페이지
     prevPage() {
       this.orderpageNum -= 1;
     },

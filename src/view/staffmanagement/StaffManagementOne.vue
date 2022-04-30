@@ -1,5 +1,7 @@
 <template>
+<!--직원관리 리스트정렬 화면-->
 <Navbar />
+<!--직원관리 직원추가 화면-->
 <StaffModal />
 
   <div class="staff_container">
@@ -70,6 +72,7 @@
 <script>
 import Navbar from '../../components/Navbar.vue';
 import StaffModal from '../../components/StaffModal.vue';
+// import axios from 'axios';
 export default {
   components: { 
     Navbar,

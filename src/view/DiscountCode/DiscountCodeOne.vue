@@ -1,7 +1,9 @@
 <template>
+<!--할인코드 진행중 코드 화면-->
   <div class="proceeding_container">
     <div class="proceeding_btn_wrap">
       <div class="proceeding_btn_wrap01">
+        <!--sorting기능 추가 예정-->
         <button type="submit" class="proceeding_header_btn">전체</button>
         <button type="submit" class="proceeding_header_btn">다회용</button>
         <button type="submit" class="proceeding_header_btn">1회용</button>
@@ -13,6 +15,7 @@
       </div>
     </div>
     <!--할인추가 콜랩스 시작-->
+    <!--코드추가 클릭시 해당 창 콜랩스형태로 열림-->
     <div class="proceeding_modal_container" v-show="discountOpen">
       <div class="proceeding_modal_container01">
         <h5 class="proceeding_modal_title">할인코드 추가(대량등록)</h5>
@@ -23,6 +26,7 @@
         </p>
         <p class="proceeding_modal_sub_title">- 아래 양식을 다운로드하여 작성하신후 파일을 업로드 해주세요.</p>
         <xlsx />
+        <!--엑셀파일 업로드 후 파싱작업 해야함-->
         <div class="proceeding_modal_input_wrap">
           <input
             type="file"
@@ -53,6 +57,7 @@
         <p class="proceeding_modal_sub_title">- 기간이 지나거나 사용하면 자동으로 종료처리 됩니다.</p>
 
         <form @submit="checkForm" action="/something" method="post" novalidate="true">
+        <!--할인코드 번호 입력칸-->
           <label for="codeName" class="proceeding_modal_label form-label">
             할인코드
             <input
@@ -69,6 +74,7 @@
             />
           </label>
           <p id="dcNumberMsg" style aria-live="assertive" class="subError02">할인코드 정보를 입력해주세요.</p>
+          <!--할인코드 명 입력칸-->
           <label for="" class="proceeding_modal_label"
             >할인코드명
             <input
@@ -83,6 +89,7 @@
             />
           </label>
           <p id="dcNameMsg" style aria-live="assertive" class="subError02">할인코드 명을 입력해주세요.</p>
+          <!--할인항목 명 radio선택칸-->
           <label for="" class="proceeding_modal_label"
             >할인항목
             <input
@@ -92,6 +99,7 @@
               @click="radioClick()"
             />
             &nbsp결제금액&nbsp
+            <!--퍼센트 할인-->
             <input
               type="text"
               class="proceeding_modal_small_input proceeding_percentCount_input"
@@ -106,6 +114,7 @@
             &nbsp%할인
           </label>
           <p id="cNumberMsg" style aria-live="assertive" class="subError02">할인 %를 입력해주세요.</p>
+          <!--할인항목 명 radio선택칸-->
           <label for="" class="proceeding_modal_label">
             <input
               type="radio"
@@ -113,7 +122,8 @@
               class="proceeding_percentCount_radioTwo"
               @click="radioClickTwo()"
             />
-            &nbsp결제금액&nbsp
+            &nbsp결제금액&nbsp1회
+            <!--금액 할인-->
             <input
               type="text"
               class="proceeding_modal_small_input proceeding_percentCount_inputTwo"
@@ -127,13 +137,16 @@
             />&nbsp%할인
           </label>
           <p id="pNumberMsg" style aria-live="assertive" class="subError02">할인 금액을 입력해주세요.</p>
+          <!--사용가능횟수 선택칸-->
           <label for="" class="proceeding_modal_label"
             >사용가능횟수 <input type="radio" name="proceeding_modal_radio" />&nbsp다회(제한없음)
             <input type="radio" name="proceeding_modal_radio" />&nbsp1회 (코드당 1번)
           </label>
+          <!--할인코드 유효기간 선택칸-->
           <label for="" class="proceeding_modal_label"
             >유효기간 <input type="radio" name="proceeding_modal_radio_one" />&nbsp기간없음(무제한)
             <input type="radio" name="proceeding_modal_radio_one" />&nbsp기간설정
+            <!--유효기간 설정 캘린더-->
             <Datepicker
               class="proceeding_modal_date"
               v-model="date"
@@ -155,6 +168,7 @@
         <thead class="proceeding_head">
           <tr class="proceeding_title">
             <th scope="col">
+              <!--체크박스-->
               <input
                 type="checkbox"
                 id="all-check"
@@ -172,6 +186,7 @@
           </tr>
         </thead>
         <tbody>
+          <!--리스트 체크박스-->
           <tr v-for="(a, i) in $store.state.DiscountCodeData" :key="i">
             <td scope="row" class="proceeding_check_box">
               <input
@@ -197,6 +212,7 @@
           </tr>
         </tbody>
       </table>
+      <!--할인코드 목록 클릭시 해당 할인코드 정보 열림(DB연결 해야함)-->
       <div class="discountinfo_wrap" v-show="DiscountCodeInfo">
         <div class="discountinfo_main_wrap">
           <h5 class="discountinfo_main_title">할인코드 정보</h5>
@@ -420,8 +436,18 @@ export default {
         return false;
       }
     },
+    //     radioClick() {
+    //   let rc = document.getElementById("cNumber").value;
+    //   console.log(rc);
+    //   if (dc == disa) {
+    //     document.getElementById("dcNameMsg").style.display = "block";
+    //   } else if (dc != "") {
+    //     document.getElementById("dcNameMsg").style.display = "none";
+    //   }
+    // },
   },
   watch: {
+    //할인코드 공백시 에러메세지 띄움
     code(val) {
       if (val.length > 0) {
         this.numberError = false;
@@ -429,11 +455,13 @@ export default {
         this.numberError = true;
       }
     },
+    //할인코드 명 공백시 에러메세지
     dcName(val) {
       if (val.length > 0) {
         this.dcNameError = false;
       }
     },
+    //할인항목 에러메세지
     dpName(val) {
       if (val.length > 0) {
         this.dpError = false;
@@ -444,6 +472,15 @@ export default {
         this.dcError = false;
       }
     },
+
+    // getSoldSelected () {
+    //   let proceedIds = []
+    //   for (let i in this.DiscountCodeData) {
+    //     if (this.DiscountCodeData[i].soldSelected) {
+    //       proceedIds.push(this.DiscountCodeData[i].proceedId)
+    //     }
+    //   }
+    // },
 
     //할인코드 코드추가 input only number
     dcNumber(val) {

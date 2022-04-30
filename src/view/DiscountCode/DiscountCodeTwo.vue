@@ -1,7 +1,9 @@
 <template>
+<!--할인코드 종료된 코드 화면-->
   <div class="accomplished_container">
     <div class="accomplished_btn_wrap">
       <div class="accomplished_btn_wrap01">
+        <!--sorting기능 추가 예정-->
         <button type="submit" class="accomplished_header_btn">1개월</button>
         <button type="submit" class="accomplished_header_btn">3개월</button>
         <button type="submit" class="accomplished_header_btn">전체</button>
@@ -11,6 +13,7 @@
         <button type="submit" class="accomplished_header_right_btn" data-bs-toggle="modal" data-bs-target="#saveModal">
           저장
         </button>
+        <!--sorting작업해야함-->
         <select class="accomplished_select">
           <option class="accomplished_option" value="최신순">최신순</option>
           <option class="accomplished_option" value="과거순">과거순</option>
@@ -23,6 +26,7 @@
         <thead class="accomplished_head">
           <tr class="accomplished_title">
             <th scope="col">
+              <!--체크박스-->
               <input
                 type="checkbox"
                 id="all-check"
@@ -67,6 +71,7 @@
           </tr>
         </tbody>
       </table>
+      <!--종료된 코드 클릭시 해당코드 정보 열림-->
       <div class="accomplishedcode_wrap" v-show="accomplishedcode">
         <div class="discountinfo_main_wrap">
           <h5 class="discountinfo_main_title">할인코드 정보</h5>
@@ -84,7 +89,7 @@
       </div>
     </div>
   </div>
-  <!--저장 모달창 시작-->
+  <!--저장 모달창 시작(삭제항목 클릭후 저장-->
   <div class="modal" tabindex="-1" id="saveModal">
     <div class="modal-dialog">
       <div class="modal-content">
@@ -109,19 +114,23 @@ export default {
   data() {
     return {
       accomplishedOpen: false,
+      //종료된 코드 정보
       accomplishedcode: false,
+      //체크박스
       accomplishedSelected: [],
-      date: "",
       accomplishedAllChecked: false,
+      date: "",
       codeCompletion: "",
     };
   },
   methods: {
+    //개별삭제 버튼
     buttonDelete: function (event) {
       if (!window.confirm("정말 삭제하시겠습니까?")) {
         event.preventDefault();
       }
     },
+    //체크박스
     accomplishedCheckedAll(checked) {
       this.accomplishedSelected = checked;
     },
@@ -143,6 +152,20 @@ export default {
         }
       }
     },
+    // importExcel(event) {
+    //     const file = event.target.files[0];
+    //     let reader = new FileReader();
+    //     reader.onload = (e) => {
+    //         let data = reader.result;
+    //         // let data = e.target.result;
+    //         let workbook = XLSX.read(data, {type: 'binary'});
+    //         workbook.SheetNames.forEach(sheetName => {
+    //             const roa = XLSX.utils.sheet_to_json(workbook.Sheets[sheetName]);
+    //             this.items.push(roa);
+    //         });
+    //     };
+    //     reader.readAsBinaryString(file);
+    // },
   },
 };
 </script>
