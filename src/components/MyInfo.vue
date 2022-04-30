@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <p class="info_img">img</p>
-    <p class="info_text">딩동커피 </p>
+    <p class="info_text">하율커피 </p>
     <div class="wrap">
       <div class="wrap1">
         <div class="info_left">매장코드</div>
@@ -20,7 +20,7 @@
       </div>
     </div>
     <div class="info_order">
-      <p class="info_order_text">딩동오더 관련 문의</p>
+      <p class="info_order_text">하율오더 관련 문의</p>
       <div class="wrap">
         <div class="wrap1">
           <div class="info_left">전화번호</div>
@@ -28,7 +28,7 @@
         </div>
         <div class="wrap2">
           <div class="info_right">010-1234-5678{{}}</div>
-          <div class="info_right">naver@naver.com{{}}</div>
+          <div class="info_right">hayul@naver.com{{}}</div>
         </div>
       </div>
       <button type="button" class="logout-btn" @click="doLogOut">로그아웃</button>
