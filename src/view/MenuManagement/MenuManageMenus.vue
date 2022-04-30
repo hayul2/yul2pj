@@ -57,7 +57,7 @@
         </tr>
         </thead>
         <tbody>
-        <tr v-for="(a, i) in menuData" :key="i">
+        <tr v-for="(a, i) in $store.state.menuData" :key="i">
           <td scope="row" class="cate_check_box">
             <input type="checkbox"
                    :id="'menuCheck_' + i.menuId"
@@ -69,12 +69,12 @@
           <router-link to="/menumanagement/MenuAddModify" class="asdf">
             <td class="edit_data">
 
-              <img :src="`${menuData[i].pdimage}`" class="coffee_img">
-              {{ menuData[i].pdname }}
+              <img src="/img/coffee.jpeg" class="coffee_img">
+              {{ $store.state.menuData[i].name }}
             </td>
           </router-link>
-          <td class="edit_data" title="마우스">{{ menuData[i].price }}</td>
-          <td class="edit_data">{{ menuData[i].pdcategory }}</td>
+          <td class="edit_data" title="마우스">{{ $store.state.menuData[i].price }}</td>
+          <td class="edit_data">{{ $store.state.menuData[i].categories2 }}</td>
           <td class="edit_data">{{ '옵션은 보류' }}</td>
           <td class="edit_data">
             <select class="edit_condition" @change="editCondition($event)" v-model="conditionKey">

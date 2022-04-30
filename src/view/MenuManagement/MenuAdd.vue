@@ -37,7 +37,7 @@
                 v-model="pddescription"
                 @change="errorMenuDeAdd"
                 class="menuadd_input form-control"
-                placeholder="예) 딩동커피만의 로스팅방식으로 만들어낸 아메리카노"
+                placeholder="예) 하율커피만의 로스팅방식으로 만들어낸 아메리카노"
             ></textarea>
             <span class="error_next_box2" id="menuDe" style aria-live="assertive">필수 정보 입니다.</span>
           </label>

@@ -43,7 +43,7 @@
       <hr />
         <ul>
             <li><button type="button" class="cate_cross_btn">오늘의 커피<p>바닐라 라떼,코코넛 라떼</p></button></li>
-            <li><button type="button" class="cate_cross_btn">딩동 시그니처<p>진짜 진한 바닐라 리얼딥, 진짜 모히또, 진짜 딩동커피</p></button></li>
+            <li><button type="button" class="cate_cross_btn">딩동 시그니처<p>진짜 진한 바닐라 리얼딥, 진짜 모히또, 진짜 하율커피</p></button></li>
             <li><button type="button" class="cate_cross_btn">콜드브루<p>바닐라 라떼, 코코넛 라떼</p></button></li>
             <li><button type="button" class="cate_cross_btn">오늘의 커피<p>바닐라 라떼,코코넛 라떼</p></button></li>
             <li><button type="button" class="cate_cross_btn">에이드<p>레몬 에이드,리얼 딸기 에이드</p></button></li>

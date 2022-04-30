@@ -9,6 +9,7 @@ export default [
         number: '15',
         wating: '매장',
         date: '2022.01.03 13:01:',
+        img: ''    
     },
     {
         name :  '진짜 생초코 크레이프',
@@ -66,7 +67,7 @@ export default [
         date: '2022.01.05 11:01',
     },
     {
-        name : '진짜 딩동 커피',
+        name : '진짜 맛있는 커피',
         price: 13500,
         isSoldOut: true,
         isHidden: false,

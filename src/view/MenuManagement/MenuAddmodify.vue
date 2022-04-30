@@ -16,7 +16,7 @@
           <input type="text" class="MenuAddmodify_input form-control" @input="MenuAddmodifyNumber" :value="tNumber">
         </label>
         <label class="MenuAddmodify_label form-label">* 설명
-          <textarea type="text" class="MenuAddmodify_input form-control" placeholder="예) 딩동커피만의 로스팅방식으로 만들어낸 아메리카노"></textarea>
+          <textarea type="text" class="MenuAddmodify_input form-control" placeholder="예) 하율커피만의 로스팅방식으로 만들어낸 아메리카노"></textarea>
         </label>
         <label class="MenuAddmodify_label form-label"> 이미지
           <input 

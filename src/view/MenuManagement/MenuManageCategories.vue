@@ -61,7 +61,7 @@
                     v-model="description"
                     class="category_add_input form-control"
                     @change="errorCaDeAdd"
-                    placeholder="예) 딩동커피만의 로스팅 방식으로 만들어 낸 아메리카노"
+                    placeholder="예) 하율커피만의 로스팅 방식으로 만들어 낸 아메리카노"
                   />
                   <span class="error_next_box2" id="caAddDe" style aria-live="assertive">필수 정보 입니다.</span>
                 </label>
@@ -126,7 +126,7 @@
           </tr>
         </thead>
         <tbody>
-          <tr v-for="(a, i) in cgData" :key="i">
+          <tr v-for="(a, i) in $store.state.CategoryData" :key="i">
             <td scope="row" class="cate_check_box">
               <input type="checkbox"
                 @click="selectChk"
@@ -134,9 +134,9 @@
                 id="a.pdnum"
                 v-model="selectedChkBox[i]"/>
             </td>
-            <td class="cate_data">{{ cgData[i].pdcategory }}</td>
-            <td class="cate_data col-7" title="마우스">{{ cgData[i].pdname }}</td>
-            <td class="cate_data">{{ "이건...일단보류" }}</td>
+            <td class="cate_data">{{ $store.state.CategoryData[i].catename }}</td>
+            <td class="cate_data col-7" title="마우스">{{ $store.state.CategoryData[i].catemenu }}</td>
+            <td class="cate_data">{{ $store.state.CategoryData[i].menunum }}</td>
             <router-link to="/menumanagement/MenuConnecttwo">
               <td class="cate_data">
                 <button type="button" class="cate_connect_btn">메뉴연결</button>
