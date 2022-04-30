@@ -4,10 +4,10 @@
   .dropdown-toggle {
     background:none;
     border:none;
-    color:#ffc952;
+    color:#997fb5;
   }
   .dropend .dropdown-toggle:after {
-    color:#ffc952;
+    color:#997fb5;
     display: block;
     margin-left: 0;
     vertical-align: 0.255em;
@@ -18,7 +18,7 @@
     border-left: 0;
   }
   .dropdown-menu {
-    background:#ffc952;
+    background:#997fb5;
     border:none;
   }
   .dropdown-item {
@@ -36,7 +36,7 @@
   }
   .nav {
     float:left;
-    background:#ffc952;
+    background:#dcd4e3;
     padding:30px 0;
     margin:0 10px;
   }
