@@ -201,6 +201,7 @@ export default {
   },
   components: {},
   methods: {
+    //전체선택 상태변경 버튼
     chooseStatus(choose) {
       let statList = [];
       _.filter(this.selectedChkBox, (val, i) => {
@@ -252,6 +253,7 @@ export default {
           if (err) console.log(err);
         });
     },
+    //전체선택 삭제버튼
     deleteProducts() {
       let deleteList = [];
       _.filter(this.selectedChkBox, (val, i) => {
@@ -285,6 +287,7 @@ export default {
           console.log(err);
         });
     },
+    //전체선택
     toggleAll() {
       if (this.toggle) {
         for (let i = 0; i < this.cgData.length; i++) {
