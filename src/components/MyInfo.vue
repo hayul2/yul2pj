@@ -12,11 +12,11 @@
       </div>
 
       <div class="wrap2">
-        <div class="info_right">{{ getShopCode }}</div>
-        <div class="info_right">{{ getShopName }}</div>
-        <div class="info_right">{{ getShopPhNum }}</div>
-        <div class="info_right">{{ getUserId }}</div>
-        <div class="info_right">{{ getMgName }}</div>
+        <div class="info_right">1231234{{ getShopCode }}</div>
+        <div class="info_right">사상점{{ getShopName }}</div>
+        <div class="info_right">051-123-4567{{ getShopPhNum }}</div>
+        <div class="info_right">hayulstaff1{{ getUserId }}</div>
+        <div class="info_right">매니저{{ getMgName }}</div>
       </div>
     </div>
     <div class="info_order">

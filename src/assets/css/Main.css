@@ -33,11 +33,12 @@
     color:#997fb5;
     font-size:20px;
   }
+  /* 매장상태 깜빡임 */
   .animate__flash {
-    background:#dcd4e3;
+    /* background:#dcd4e3;
     border:none;
     animation-duration:1s;
-    animation-iteration-count: infinite;
+    animation-iteration-count: infinite; */
   }
 
 
