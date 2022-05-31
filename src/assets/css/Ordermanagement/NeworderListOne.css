@@ -80,6 +80,7 @@
     color: #997fb5;
     padding: 40px;
     margin: 0 15px;
+    border-radius:5px;
   }
   .order_right > .order_right_inner:nth-child(2) {
     border:1px solid #997fb5;

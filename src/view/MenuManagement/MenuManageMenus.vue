@@ -68,8 +68,7 @@
           </td>
           <router-link to="/menumanagement/MenuAddModify" class="asdf">
             <td class="edit_data">
-
-              <img src="/img/coffee.jpeg" class="coffee_img">
+              <img src="../../assets/img/coffee.jpeg" class="coffee_img">
               {{ $store.state.menuData[i].name }}
             </td>
           </router-link>

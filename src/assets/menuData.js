@@ -21,6 +21,7 @@ export default [
         number: '145',
         wating: '매장',
         date: '2022.01.03 13:21',
+        img:'../../assets/img/coffee.jpeg'
     },
     {
         name : '코코넛 라떼',
