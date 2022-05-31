@@ -329,12 +329,26 @@ export default {
     //직원추가 이름 유효성
     errorCh() {
       //직원이름
+      let name = document.getElementById('stName1').value;
+      let nameValue = /^[0-9]{4,12}$/;
+
+      console.log(typeof this.stName)
+      console.log(this.stName)
       if (this.stName1 == "") {
         document.getElementById("stNameErr").style.display = "block";
         return false;
       } else if (this.stName1 != "") {
         document.getElementById("stNameErr").style.display = "none";
         return false;
+      }
+      if(name.length < 2) {
+        this.$swal('이름은 최소 2자까지 입력 가능합니다.')
+      } else if (name.search(/\s/) !== -1) {
+        this.$swal('이름에 공백은 불가능합니다.');
+      } else if (name.search(/[~!@#$%^&*()_+|<>?:{}]/) !== -1) {
+        this.$swal("이름에 특수문자는 불가능합니다.");
+      } else if (name.search(/[가-힣]/) !== -1) {
+        this.$swal("이름에 숫자는 불가능합니다.");
       }
     },
     //직원추가 아이디 유효성
