@@ -61,7 +61,7 @@
                 <span class="error_text_box" id="stPwMsg" style aria-live="assertive">필수 입력 정보입니다.</span>
               </div>
             </div>
-            <!--/////권한설정 체크박스/////-->
+            <!--/////직원추가 권한설정 체크박스/////-->
             <fieldset class="row mb-3">
               <legend class="col-form-label col-sm-2 pt-0">권한설정</legend>
               <div class="col-sm-10">
@@ -168,6 +168,7 @@
                 <span class="error_text_box" id="stPwMsgE" style aria-live="assertive">필수입력 정보입니다.</span>
               </div>
             </div>
+            <!-- 직원설정 권한편집 -->
             <fieldset class="row mb-3">
               <legend class="col-form-label col-sm-2 pt-0">권한설정</legend>
               <div class="col-sm-10">
@@ -336,7 +337,6 @@ export default {
       console.log(this.stName);
 
       if (this.stName == "") {
-        console.log(this.stName)
         document.getElementById("stNameErr").style.display = "block";
         return false;
       } else if (this.stName1 != "") {
@@ -413,7 +413,6 @@ export default {
         console.log(this.checked)
         if (!chb) {
           document.getElementById('chbMsg').style.display = "block";
-          console.log(this.chbMsg)
         } else if (chb != '') {
           document.getElementById('chbMsg').style.display = "none"
         } 
@@ -431,11 +430,8 @@ export default {
         console.log(this.setchecked)
         if (!ckb) {
           document.getElementById('ckbMsg').style.display = "block";
-          console.log(this.ckbMsg)
         } else if (ckb != '') {
           document.getElementById('ckbMsg').style.display = "none"
-        } else if (!ckb) {
-          document.getElementById('ckbMsg').style.display = "block"
         }
     },
     //직원추가 input 공백체크

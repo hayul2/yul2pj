@@ -9,7 +9,6 @@ export default [
         number: '15',
         wating: '매장',
         date: '2022.01.03 13:01:',
-        img: ''    
     },
     {
         name :  '진짜 생초코 크레이프',
@@ -21,7 +20,6 @@ export default [
         number: '145',
         wating: '매장',
         date: '2022.01.03 13:21',
-        img:'../../assets/img/coffee.jpeg'
     },
     {
         name : '코코넛 라떼',
