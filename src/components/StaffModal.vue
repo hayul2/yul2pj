@@ -15,7 +15,7 @@
                 <input
                   type="text"
                   class="form-control textField"
-                  id="stName1"
+                  id="stName"
                   maxlength="10"
                   v-model="stName"
                   @change="errorCh"
@@ -329,12 +329,14 @@ export default {
     //직원추가 이름 유효성
     errorCh() {
       //직원이름
-      let name = document.getElementById('stName1').value;
+      let name = document.getElementById('stName').value;
       let nameValue = /^[0-9]{4,12}$/;
 
-      console.log(typeof this.stName)
-      console.log(this.stName)
-      if (this.stName1 == "") {
+      console.log(typeof this.stName);
+      console.log(this.stName);
+
+      if (this.stName == "") {
+        console.log(this.stName)
         document.getElementById("stNameErr").style.display = "block";
         return false;
       } else if (this.stName1 != "") {
@@ -342,7 +344,7 @@ export default {
         return false;
       }
       if(name.length < 2) {
-        this.$swal('이름은 최소 2자까지 입력 가능합니다.')
+        this.$swal('이름은 최소 2자까지 입력 가능합니다.');
       } else if (name.search(/\s/) !== -1) {
         this.$swal('이름에 공백은 불가능합니다.');
       } else if (name.search(/[~!@#$%^&*()_+|<>?:{}]/) !== -1) {
