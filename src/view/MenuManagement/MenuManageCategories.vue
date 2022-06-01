@@ -50,7 +50,7 @@
                     v-model="ctname"
                     class="category_add_input form-control"
                     @change="errorCaAdd"
-                    placeholder="예) 딩동아메리카노"
+                    placeholder="예) 율율아메리카노"
                   />
                   <span class="error_next_box2" id="caAddName" style aria-live="assertive">필수 정보 입니다.</span>
                 </label>
@@ -128,11 +128,13 @@
         <tbody>
           <tr v-for="(a, i) in $store.state.CategoryData" :key="i">
             <td scope="row" class="cate_check_box">
-              <input type="checkbox"
+              <input
+                type="checkbox"
                 @click="selectChk"
                 @change="notcheckedall"
                 id="a.pdnum"
-                v-model="selectedChkBox[i]"/>
+                v-model="selectedChkBox[i]"
+              />
             </td>
             <td class="cate_data">{{ $store.state.CategoryData[i].catename }}</td>
             <td class="cate_data col-7" title="마우스">{{ $store.state.CategoryData[i].catemenu }}</td>
@@ -148,7 +150,6 @@
                 <option class="cate_condition_text">숨김</option>
                 <option class="cate_condition_text">정상</option>
               </select>
-           
             </td>
           </tr>
         </tbody>
@@ -238,7 +239,7 @@ export default {
               timer: 3000,
             });
             this.$router.go();
-          }else if (res.data == 2) {
+          } else if (res.data == 2) {
             this.$swal.fire({
               icon: "success",
               title: "상태 숨김",
@@ -314,9 +315,9 @@ export default {
       for (let i = 0; i < this.cgData.length; i++) {
         if (this.cgData[i].status == "0") {
           this.conditionkey[i] = "정상";
-        } else if(this.cgData[i].status == "1"){
+        } else if (this.cgData[i].status == "1") {
           this.conditionkey[i] = "숨김";
-        }else{
+        } else {
           this.conditionkey[i] = "품절";
         }
       }
@@ -396,15 +397,18 @@ export default {
         });
     },
   },
+  //카테고리추가 카테고리명 에러메세지
   errorCaAdd() {
     if (this.ctname == "") {
       document.getElementById("caAddName").style.display = "block";
-      return false;
+      console.log(this.ctname)
+      return true;
     } else if (this.ctname != "") {
       document.getElementById("caAddName").style.display = "none";
       return false;
     }
   },
+  //카테고리추가 카테고리 설명 에러메세지
   errorCaDeAdd() {
     if (this.description == "") {
       document.getElementById("caAddDe").style.display = "block";
@@ -447,7 +451,6 @@ export default {
   updated() {
     this.cntPdname(this.cgData, 2);
   },
-  
 };
 </script>
 <style>
