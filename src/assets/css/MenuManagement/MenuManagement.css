@@ -8,7 +8,7 @@
     padding:15px 15px
   }  
 .menu_main_text {
-    color:#997fb5;
+    color:#5dae8a;
     font-size:36px;
 }
 .menu_router_wrap {
@@ -19,7 +19,7 @@
 }
 .menu_router_name {
   margin:0 30px;
-  color:#997fb5;
+  color:#5dae8a;
   position:relative;
 }
 /* .menu_router_name:first-child {

@@ -8,39 +8,39 @@
     padding:15px 0;
 }
 .menuedit_left {
-    color:#997fb5;
+    color:#5dae8a;
 }
 .menuedit_label {
     margin:0 10px;
 }
 .menuedit_check {
-    border:#997fb5;
+    border:#5dae8a;
 }
 .menuedit_check_btn {
     background:#fff;
     color:#333;
     font-size:14px;
-    border:1px solid #997fb5;
-    color:#997fb5;
+    border:1px solid #5dae8a;
+    color:#5dae8a;
     padding: 5px 15px;
     border-radius:3px;
 }
 
 .menu_search {
-    border:1px solid #997fb5;
+    border:1px solid #5dae8a;
     border-radius: 30px;
     padding:5px 15px;
 }
 .menu_hidden_select {
     width:150px;
-    border:1px solid #997fb5;
-    color:#997fb5;
+    border:1px solid #5dae8a;
+    color:#5dae8a;
     border-radius: 15px;
     padding:0 10px;
     margin:0 10px;
 }
 .menu_hidden_btn {
-    color:#997fb5;
+    color:#5dae8a;
 }
 .cate_menu_btn {
     padding:5px;
@@ -48,7 +48,7 @@
     border:none;
     border-radius: 3px;
     color:white;
-    background:rgb(194, 193, 193);
+    background:#f1fdf3;
     font-size:14px;
 }
 .menuedit_menu_btn02 {
@@ -56,8 +56,8 @@
     margin:0 10px;
     border:none;
     border-radius: 3px;
-    color:white;
-    background:#c2b4cd;
+    color:#5dae8a;
+    background:#f1fdf3;
     font-size:14px;
 }
 .menuedit_list_wrap {
@@ -68,13 +68,13 @@
     margin:0 auto;
 }
 .edit_thead {
-    background:#997fb5;
+    background:#5dae8a;
     color:white;
     padding:10px 0;
     text-align: center;
 }
 .edit_title {
-    background:#c2b4cd;
+    background:#5dae8a;
     color:#fff;
 }
 .edit_col {
@@ -99,7 +99,7 @@
 
 .edit_data {
     text-decoration: none;
-    color:#997fb5;
+    color:#5dae8a;
     padding:5px 0;
 }
 .coffee_img {
@@ -110,7 +110,7 @@
     transform:scale(2.5)
 }
 tbody {
-    color:#997fb5;
+    color:#5dae8a;
 }
 tr {
     border-bottom:1px solid #ddd
@@ -119,16 +119,16 @@ tr {
     display:block;
 }
 .cate_connect_btn {
-    background:#e5d4f1;
-    color:#875eb3;
+    background:#f1fdf5;
+    color:#5dae8a;
     border-radius: 3px;
     border:none;
     padding:5px;
 }
 .edit_condition {
     width:90px;
-    border:1px solid #997fb5;
-    color:#997fb5;
+    border:1px solid #5dae8a;
+    color:#5dae8a;
     border-radius:5px;
     padding: 0 5px;
 }
@@ -137,7 +137,7 @@ tr {
     padding:20px;
 }
 .edit_add_btn {
-    background:#997fb5;
+    background:#5dae8a;
     color:white;
     border:none;
     border-radius: 3px;

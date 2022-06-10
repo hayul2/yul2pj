@@ -74,13 +74,13 @@
     text-align: center;
   }
   .page-btn {
-    background: #997fb5;
-    border: 1px solid #997fb5;
+    background: #5dae8a;
+    border: 1px solid #f1f3fd;
     color: #fff;
     margin: 0 15px;
   }
   .page-count {
-    background: #997fb5;
+    background: #5dae8a;
     color: #fff;
     padding: 5px 15px;
   }

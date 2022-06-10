@@ -8,13 +8,13 @@
     padding:15px 0;
 }
 .category_left {
-    color:#997fb5;
+    color:#5dae8a;
 }
 .cate_label {
     margin:0 10px;
 }
 .cate_check {
-    border:#997fb5;
+    border:#5dae8a;
 }
 .cate_check_box {
     padding:0 10px;
@@ -23,35 +23,35 @@
     background:#fff;
     color:#333;
     font-size:14px;
-    border:1px solid #997fb5;
-    color:#997fb5;
+    border:1px solid #5dae8a;
+    color:#5dae8a;
     padding: 5px 15px;
     border-radius:3px;
 }
 
 .menu_search {
-    border:1px solid #997fb5;
+    border:1px solid #5dae8a;
     border-radius: 30px;
     padding:5px 15px;
 }
 .hidden_select {
     width:150px;
-    border:1px solid #997fb5;
-    color:#997fb5;
+    border:1px solid #5dae8a;
+    color:#5dae8a;
     border-radius: 15px;
     padding:0 10px;
     margin:0 10px;
 }
 .hidden_btn {
-    color:#997fb5;
+    color:#5dae8a;
 }
 .cate_menu_btn {
     padding:5px;
     margin:0 10px;
     border:none;
     border-radius: 3px;
-    color:white;
-    background:rgb(194, 193, 193);
+    color:#333;
+    background:#f1fdf3;
     font-size:14px;
 }
 .cate_menu_btn02 {
@@ -60,7 +60,7 @@
     border:none;
     border-radius: 3px;
     color:white;
-    background:#c2b4cd;
+    background:#5dae8a;
     font-size:14px;
 }
 .category_list_wrap {
@@ -77,7 +77,7 @@
     text-align: center;
 }
 .cate_title {
-    background:#c2b4cd;
+    background:#5dae8a;
     color:#fff;
 }
 .cate_col {
@@ -102,23 +102,23 @@
 
 .cate_data {
     text-decoration: none;
-    color:#997fb5;
+    color:#5dae8a;
     padding:5px 0;
 }
 tbody {
-        color:#997fb5;
+    color:#5dae8a;
 }
 .cate_connect_btn {
-    background:#e5d4f1;
-    color:#875eb3;
+    background:#f1fdf3;
+    color:#5dae8a;
     border-radius: 3px;
     border:none;
     padding:5px;
 }
 .cate_condition {
     width:90px;
-    border:1px solid #997fb5;
-    color:#997fb5;
+    border:1px solid #5dae8a;
+    color:#5dae8a;
     border-radius:5px;
     padding: 0 5px;
 }
@@ -127,7 +127,7 @@ tbody {
     padding:20px;
 }
 .cate_add_btn {
-    background:#997fb5;
+    background:#5dae8a;
     color:white;
     border:none;
     border-radius: 3px;
@@ -137,7 +137,7 @@ tbody {
     padding:0 1rem;
 }
 .category_add_title {
-    color:#997fb5;
+    color:#5dae8a;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -145,7 +145,7 @@ tbody {
     font-size:20px;
 }
 .category_add_input {
-    border:1px solid #997fb5;
+    border:1px solid #5dae8a;
     width: 350px;
 }
 .category_add_label {
@@ -171,7 +171,7 @@ tbody {
 .category_add_btn {
     width: 150px;
     border:none;
-    background:#997fb5;
+    background:#5dae8a;
     color:white;
     padding: 10px 15px;
     margin:10px 0;
