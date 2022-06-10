@@ -36,8 +36,7 @@
   }
   ul {list-style:none;}
   .nav_container {
-    width:13%;
-    padding:30px 15px;
+    padding:30px 0;
   }
   .nav {
     float:left;
