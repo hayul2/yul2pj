@@ -7,10 +7,14 @@
     float:left;
     width:30%;
     margin:0 15px;
-    background:#f5f3f7;
-    color:#997fb5;
+    background:#f1fdf3;
+    color:#333;
+    font-weight: 300;
     border-radius: 5px;
     padding:15px;
+  }
+  .order_text {
+    color:#5dae8a
   }
   .main_call {
     width:100%;
@@ -25,12 +29,12 @@
     padding:5px;
     width:150px;
     border-radius: 15px;
-    border:1px solid #997fb5;
+    border:1px solid #5dae8a;
     background:#fff;
-    color:#997fb5;
+    color:#5dae8a;
   }
   .xi-bell {
-    color:#997fb5;
+    color: #5dae8a;
     font-size:20px;
   }
   /* 매장상태 깜빡임 */
@@ -53,7 +57,7 @@
   .animated:hover {
     -webkit-animation-iteration-count: infinite;
     animation-iteration-count: infinite;
-    background:#997fb5;
+    background:#5dae8a;
     color:white;
   }
    

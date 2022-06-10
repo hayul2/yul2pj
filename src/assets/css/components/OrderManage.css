@@ -29,12 +29,12 @@
     width:120px;
     height:30px;
     border-radius: 30px;
-    border:1px solid #997fb5;
+    border:1px solid #5dae8a;
     color:#f5f3f7;
-    background:#997fb5;
+    background:#5dae8a;
   }
   .btn-default:hover {
-    color:#997fb5;
+    color:#5dae8a;
   }
   .order_container {
     display:grid;
@@ -70,9 +70,9 @@
   } */
   
   .xi-angle-right-min {
-    border:1px dashed #997fb5;
+    border:1px dashed #5dae8a;
     border-radius: 100%;
-    color:#997fb5;
+    color:#5dae8a;
     line-height: 1.2;
     font-size: 14px;
   }

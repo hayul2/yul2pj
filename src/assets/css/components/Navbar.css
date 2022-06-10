@@ -4,10 +4,11 @@
   .dropdown-toggle {
     background:none;
     border:none;
-    color:#997fb5;
+    color:white;
+    font-weight: 100;
   }
   .dropend .dropdown-toggle:after {
-    color:#997fb5;
+    color:#5dae8a;
     display: block;
     margin-left: 0;
     vertical-align: 0.255em;
@@ -17,8 +18,12 @@
     border-bottom: 0;
     border-left: 0;
   }
+  .dropdown-item:hover {
+    background:#5dae8a;
+    color:white;
+  }
   .dropdown-menu {
-    background:#997fb5;
+    background:#5dae8a;
     border:none;
   }
   .dropdown-item {
@@ -36,7 +41,7 @@
   }
   .nav {
     float:left;
-    background:#dcd4e3;
+    background:#5dae8a;
     padding:30px 0;
     margin:0 10px;
     border-radius:3px;
@@ -46,16 +51,17 @@
     padding:15px 0;
   }
   .nav-wrap > .xi-cloud-o {
-    border:1px dashed #c6a6e2;
+    border:1px dashed white;
     border-radius: 100%;
     padding:5px;
     color:#fff;
   }
   .nav-link {
-    color:#997fb5;
+    color:white;
     text-decoration: none;
+    font-weight: 300;
   }
   .nav-link:hover {
-    color:#997fb5;
+    color:white;
     text-decoration: none;
   }

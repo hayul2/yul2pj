@@ -29,9 +29,9 @@
     height:30px;
     border-radius: 30px;
     margin:0 15px;
-    border:1px solid #997fb5;
+    border:1px solid #5dae8a;
     color:#f5f3f7;
-    background:#997fb5;
+    background:#5dae8a;
     font-size:14px;
   }
   .btn-default:hover {
@@ -71,9 +71,9 @@
   }
   
   .xi-angle-right-min {
-    border:1px dashed #997fb5;
+    border:1px dashed #5dae8a;
     border-radius: 100%;
-    color:#997fb5;
+    color:#5dae8a;
     padding:5px;
     line-height: 1.3;
     font-size: 14px;

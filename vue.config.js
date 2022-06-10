@@ -32,7 +32,9 @@ module.exports = {
         target,
         changeOrigin: true,
       },
+
     },
   },
   lintOnSave: false,
+  publicPath: './',
 };
