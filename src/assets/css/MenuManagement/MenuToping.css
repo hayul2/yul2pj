@@ -6,7 +6,7 @@
     align-items: flex-start;
 }
 .toping_maintitle {
-    color:#997fb5;
+    color:#5dae8a;
 }
 .toping_sub_title {
     font-size:14px;
@@ -20,26 +20,26 @@
     padding:15px 0;
 }
 .toping_left {
-    color:#997fb5;
+    color:#5dae8a;
 }
 .toping_label {
     margin:0 10px;
 }
 .toping_check {
-    border:#997fb5;
+    border:#5dae8a;
 }
 .toping_check_btn {
     background:#fff;
     color:#333;
     font-size:14px;
-    border:1px solid #997fb5;
-    color:#997fb5;
+    border:1px solid #5dae8a;
+    color:#5dae8a;
     padding: 5px 15px;
     border-radius:3px;
 }
 
 .toping_search {
-    border:1px solid #997fb5;
+    border:1px solid #5dae8a;
     border-radius: 30px;
     padding:5px 15px;
 }
@@ -53,25 +53,25 @@
 }
 .toping_hidden_select {
     width:150px;
-    border:1px solid #997fb5;
-    color:#997fb5;
+    border:1px solid #5dae8a;
+    color:#5dae8a;
     border-radius: 15px;
     padding:0 10px;
     margin:0 10px;
 }
 .toping_hidden_btn {
-    color:#997fb5;
+    color:#5dae8a;
 }
 .toping_connect_wrap {
     width: 400px;
     margin: 0 auto;
-    border: 1px solid #997fb5;
+    border: 1px solid #5dae8a;
     padding: 15px 15px;
     border-radius: 10px;
 }
 .toping_connect_title {
     font-size: 24px;
-    color:#997fb5;
+    color:#5dae8a;
     padding:15px 0;
 }
 .toping_connect_sub_text {
@@ -85,7 +85,7 @@
     border:none;
     border-radius: 3px;
     color:white;
-    background:#c2b4cd;
+    background:#5dae8a;
     font-size:14px;
 }
 .toping_list_wrap {
@@ -97,13 +97,13 @@
     margin:0 auto;
 }
 .toping_thead {
-    background:#997fb5;
+    background:#5dae8a;
     color:white;
     padding:10px 0;
     text-align: center;
 }
 .toping_title {
-    background:#c2b4cd;
+    background:#5dae8a;
     color:#fff;
 }
 .toping_col {
@@ -128,12 +128,12 @@
 
 .toping_data {
     text-decoration: none;
-    color:#997fb5;
+    color:#5dae8a;
     padding:5px 0;
-    border-bottom:1px solid #ddd;
+    border-bottom:1px solid #f1fdf3;
 }
 tbody {
-        color:#997fb5;
+    color:#5dae8a;
 }
 /* .toping_connect_btn {
     border:none;
@@ -144,8 +144,8 @@ tbody {
 } */
 .toping_condition {
     width:90px;
-    border:1px solid #997fb5;
-    color:#997fb5;
+    border:1px solid #f1fdf3;
+    color:#5dae8a;
     border-radius:5px;
     padding: 0 5px;
 }
@@ -159,14 +159,14 @@ tbody {
     width: 30px;
     border:none;
     background:none;
-    color:#997fb5;
+    color:#5dae8a;
 }
 .toping_add_wrap {
     text-align: right;
     padding:20px;
 }
 .toping_add_btn {
-    background:#997fb5;
+    background:#5dae8a;
     color:white;
     border:none;
     border-radius: 3px;
@@ -174,16 +174,16 @@ tbody {
 }
 /* 옵션추가 오프캔버스 */
 .toping_off_title {
-    color:#997fb5;
+    color:#5dae8a;
 }
 .toping_subtitle {
     font-size:14px;
-    color:#997fb5;
+    color:#5dae8a;
 }
 .toping_add_btn {
     width: 100%;
     border:none;
-    background:#c2b4cd;
+    background:#5dae8a;
     color:white;
 }
 .toping_form_label {
@@ -193,7 +193,7 @@ tbody {
     margin-right:5px;
 }
 #toping_Label {
-    color:#997fb5;
+    color:#5dae8a;
 }
 .toping_add_wrap {
     text-align: right;
@@ -203,16 +203,15 @@ tbody {
     border:none;
     border-radius: 5px;
     padding:5px 10px;
-    background:#997fb5;
+    background:#5dae8a;
     color:white;
 }
 .toping_data_btn_wrap {
-
 }
 .toping_data_btn01 {
     border:none;
-    background:#c2b4cd;
-    color:#997fb5;
+    background:#5dae8a;
+    color:white;
     font-size:14px;
     padding:5px 15px;
     margin-right:10px;
@@ -234,7 +233,7 @@ tbody {
 }
 .toping_option_add_title {
     font-size:24px;
-    color:#997fb5;
+    color:#5dae8a;
 }
 .toping_option_add_subtitle {
     font-size:14px;
@@ -252,7 +251,7 @@ tbody {
 }
 .toping_option_add_btn {
     border: none;
-    background: #997fb5;
+    background: #5dae8a;
     color: white;
     padding: 5px 15px;
     border-radius: 5px;
