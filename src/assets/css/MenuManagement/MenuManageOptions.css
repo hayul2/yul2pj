@@ -8,47 +8,47 @@
     padding:15px 0;
 }
 .menuoption_left {
-    color:#997fb5;
+    color:#5dae8a;
 }
 .menuoption_label {
     margin:0 10px;
 }
 .menuoption_check {
-    border:#997fb5;
+    border:#5dae8a;
 }
 .menuoption_check_btn {
-    background:#fff;
+    background:white;
     color:#333;
     font-size:14px;
-    border:1px solid #997fb5;
-    color:#997fb5;
+    border:1px solid #5dae8a;
+    color:#5dae8a;
     padding: 5px 15px;
     border-radius:3px;
 }
 
 .menuoption_search {
-    border:1px solid #997fb5;
+    border:1px solid #5dae8a;
     border-radius: 30px;
     padding:5px 15px;
 }
 .menuoption_hidden_select {
     width:150px;
-    border:1px solid #997fb5;
-    color:#997fb5;
+    border:1px solid #f1fdf3;
+    color:#5dae8a;
     border-radius: 15px;
     padding:0 10px;
     margin:0 10px;
 }
 .menuoption_hidden_btn {
-    color:#997fb5;
+    color:#5dae8a;
 }
 .cate_menu_btn {
     padding:5px;
     margin:0 10px;
     border:none;
     border-radius: 3px;
-    color:white;
-    background:rgb(194, 193, 193);
+    color:#5dae8a;
+    background:#f1fdf3;
     font-size:14px;
 }
 .menuoption_menu_btn02 {
@@ -57,7 +57,7 @@
     border:none;
     border-radius: 3px;
     color:white;
-    background:#c2b4cd;
+    background:#5dae8a;
     font-size:14px;
 }
 .menuoption_list_wrap {
@@ -74,7 +74,7 @@
     text-align: center;
 }
 .menuoption_title {
-    background:#c2b4cd;
+    background:#5dae8a;
     color:#fff;
 }
 .menuoption_col {
@@ -99,24 +99,27 @@
 
 .menuoption_data {
     text-decoration: none;
-    color:#997fb5;
+    color:#5dae8a;
     padding:5px 0;
     border-bottom:1px solid #ddd;
+}
+.menuoption_data a {
+    color:#5dae8a
 }
 tbody {
         color:#997fb5;
 }
 .menuoption_connect_btn {
     border:none;
-    background:#c2b4cd;
-    color:#997fb5;
+    background:#f1fdf3;
+    color:#5dae8a;
     border-radius: 10px;
     padding:5px 10px;
 }
 .menuoption_condition {
     width:90px;
-    border:1px solid #997fb5;
-    color:#997fb5;
+    border:1px solid #f1fdf3;
+    color:#5dae8a;
     border-radius:5px;
     padding: 0 5px;
 }
@@ -130,14 +133,17 @@ tbody {
     width: 30px;
     border:none;
     background:none;
-    color:#997fb5;
+    color:#5dae8a;
+}
+.menuoption_icon > .xi-close {
+    color:#5dae8a
 }
 .menuoption_add_wrap {
     text-align: right;
     padding:20px;
 }
 .menuoption_add_btn {
-    background:#997fb5;
+    background:#5dae8a;
     color:white;
     border:none;
     border-radius: 3px;
@@ -145,18 +151,18 @@ tbody {
 }
 /* 옵션추가 오프캔버스 */
 .menuoption_off_title {
-    color:#997fb5;
+    color:#5dae8a;
 }
 .option_subtitle {
     font-size:14px;
-    color:#997fb5;
+    color:#5dae8a;
     text-align: left;
 }
 .menuoption_add_btn {
     width: 100%;
     border:none;
-    background:#c2b4cd;
-    color:white;
+    background:#f1fdf3;
+    color:#5dae8a;
 }
 .menuoption_form_label {
     display: block;
@@ -165,7 +171,7 @@ tbody {
     margin-right:5px;
 }
 #menuoption_Label {
-    color:#997fb5;
+    color:#5dae8a;
 }
 .menuoptions_add_wrap {
     text-align: right;
@@ -175,7 +181,7 @@ tbody {
     border:none;
     border-radius: 5px;
     padding:5px 10px;
-    background:#997fb5;
+    background:#5dae8a;
     color:white;
 }
 .subError04{
