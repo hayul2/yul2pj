@@ -5,7 +5,7 @@
     justify-content: space-between;
 }
 .connectmenu_title {
-    color:#997fb5;
+    color:#5dae8a;
     padding:15px 0;
 }
 .connectmenu_text {
@@ -32,7 +32,7 @@
 }
 .menucon_cross_btn {
     border:none;
-    background:#dcd4e3;
+    background:#5dae8a;
     color:#fff;
     padding:10px;
     width:480px;

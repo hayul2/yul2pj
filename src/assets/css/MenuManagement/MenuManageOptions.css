@@ -107,7 +107,7 @@
     color:#5dae8a
 }
 tbody {
-        color:#997fb5;
+    color:#997fb5;
 }
 .menuoption_connect_btn {
     border:none;
@@ -118,7 +118,7 @@ tbody {
 }
 .menuoption_condition {
     width:90px;
-    border:1px solid #f1fdf3;
+    border:1px solid #5dae8a;
     color:#5dae8a;
     border-radius:5px;
     padding: 0 5px;

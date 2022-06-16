@@ -4,7 +4,7 @@
     padding:0 30px;
 }
 .menucon_title {
-    color:#997fb5;
+    color:#5dae8a;
     padding:15px 0;
 }
 .menucon_text {
@@ -15,12 +15,12 @@
 .menucon_btn_wrap {
     display:flex;
     justify-content: space-between;
-    border-bottom:1px solid #997fb5;
+    border-bottom:1px solid #5dae8a;
 }
 .menucon_btn {
     background:white;
-    border:1px solid #997fb5;
-    color:#997fb5;
+    border:1px solid #5dae8a;
+    color:#5dae8a;
     padding:5px 10px;
     border-bottom:none;
 }
@@ -37,16 +37,16 @@
     padding:10px 5px;
 }
 .menucon_search_left_wrap {
-    color:#997fb5;
+    color:#5dae8a;
 }
 .menucon_label {
     padding:0 10px;
 }
 .menu_search_btn {
-    border:1px solid #997fb5;
+    border:1px solid #5dae8a;
     border-radius: 5px;
     background:white;
-    color:#997fb5;
+    color:#5dae8a;
     font-size:14px;
     padding:5px 15px;
     margin:0 5px;
@@ -56,7 +56,7 @@
 }
 .menucon_search {
     border-radius: 15px;
-    border:1px solid #997fb5;
+    border:1px solid #5dae8a;
     padding:5px 15px;
     position:relative;
 }
@@ -68,8 +68,8 @@
     top:0;
 } */
 .menucon_thead {
-    background:#dcd4e3;
-    color:white;
+    background:#f1fdf3;
+    color:#5dae8a;
     padding:15px 0;
     text-align: center;
     font-size:14px;

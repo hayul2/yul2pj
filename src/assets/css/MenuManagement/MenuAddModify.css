@@ -69,7 +69,7 @@
     padding:10px 0;
 }
 .category_option_bind {
-    color:#dcd4ec;
+    color:#5dae8a;
     font-size:14px;
     padding:10px 0;
 }
@@ -87,7 +87,7 @@
 }
 .category_option_add_title {
     font-size:20px;
-    color:#997fb5;
+    color:#5dae8a;
 }
 .category_option_add_text {
     font-size:14px;
@@ -99,15 +99,15 @@
     padding:15px 0;
 }
 .category_option_add_btn {
-    border:1px solid #997fb5;
-    border-radius: 15px;;
+    border:1px solid #5dae8a;
+    border-radius: 15px;
     background:none;
     color:#333;
     padding:10px 30px;
     width:300px;
 }
 .category_option_add_btn02 {
-    border:1px solid #997fb5;
+    border:1px solid #5dae8a;
     border-radius: 15px;;
     background:none;
     color:#333;
@@ -128,11 +128,11 @@
 }
 .MenuAddmodify_edit_btn {
     background:none;
-    border:1px solid #997fb5;
+    border:1px solid #5dae8a;
     border-radius: 10px;
     padding:5px 15px;
     font-size:14px;
-    color:#997fb5
+    color:#5dae8a;
 }
 
 /* 옵션설정 */
@@ -140,7 +140,7 @@
     padding:10px 0;
 }
 .option_edit_bind {
-    color:#dcd4ec;
+    color:#5dae8a;
     font-size:14px;
     padding:10px 0;
 }
@@ -156,7 +156,7 @@
 }
 .option_edit_add_title {
     font-size:20px;
-    color:#997fb5;
+    color:#5dae8a;
 }
 .option_edit_add_text {
     font-size:14px;
@@ -168,7 +168,7 @@
     padding:15px 0;
 }
 .option_edit_add_btn {
-    border:1px solid #997fb5;
+    border:1px solid #5dae8a;
     border-radius: 15px;;
     background:none;
     color:#333;
@@ -176,7 +176,7 @@
     width:300px;
 }
 .option_edit_add_btn02 {
-    border:1px solid #997fb5;
+    border:1px solid #5dae8a;
     border-radius: 15px;;
     background:none;
     color:#333;
@@ -197,9 +197,9 @@
 }
 .option_edit_btn {
     background:none;
-    border:1px solid #997fb5;
+    border:1px solid #5dae8a;
     border-radius: 10px;
     padding:5px 15px;
     font-size:14px;
-    color:#997fb5
+    color:#5dae8a;
 }
