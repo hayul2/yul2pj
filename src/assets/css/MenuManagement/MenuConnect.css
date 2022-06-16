@@ -16,7 +16,7 @@
 }
 .connect_title {
     font-size:24px;
-    color:#997fb5;
+    color:#5dae8a;
     padding:10px 10px;
     background:none;
     border:none;
@@ -36,7 +36,7 @@
 .connect_add_btn {
     width: 50%;
     padding:15px;
-    background:#997fb5;
+    background:#5dae8a;
     color:white;
     border:none;
 }
@@ -63,5 +63,5 @@
     font-weight: 300;
 }
 .cate_cross_btn:hover {
-    background:#dcd4e3;
+    background:#5dae8a;
 }
