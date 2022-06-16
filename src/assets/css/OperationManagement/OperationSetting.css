@@ -29,7 +29,7 @@
 .oper_modal_text {
     padding:15px 0;
     font-size:20px;
-    color:#997fb5;
+    color:#5dae8a;
 }
 .input_day {
     display: block;
@@ -48,7 +48,7 @@
     width:310px;
     height:50px;
     border-radius: 5px;
-    border:1px solid #997fb5;
+    border:1px solid #5dae8a;
     background:white;
     color:#333;
     margin:15px auto;
@@ -58,7 +58,7 @@
 .regular_circle {
     float:right;
     line-height:1.5;
-    color:#997fb5;
+    color:#5dae8a;
 }
 .btn_inner_text {
     float:left
@@ -71,19 +71,19 @@
     width:350px;
     height:40px;
     margin:5px 0;
-    border:1px solid #997fb5;
+    border:1px solid #5dae8a;
     border-radius:5px;
     background:white;
-    color:#997fb5;
+    color:#5dae8a;
     font-size: 14px;
 }
 .opentime_addbtntwo {
     width:350px;
     height:40px;
     margin:5px 0;
-    border:1px solid #997fb5;
+    border:1px solid #5dae8a;
     border-radius:5px;    
-    background:#997fb5;
+    background:#5dae8a;
     color:white;
     font-size: 14px;
 }
@@ -93,7 +93,7 @@
 .oper_time_icon {
     float:right;
     line-height:1.3;
-    color:#997fb5;
+    color:#5dae8a;
     font-size:20px
 }
 /*  요일체크1 */
@@ -115,7 +115,7 @@
 .day_Five2+.dayFive_Label2 {
     margin: 0 7px;
     padding:15px;
-    border:1px solid #dcd4e3;
+    border:1px solid #5dae8a;
     background:url('../../img/dayfive_off.jpg') no-repeat 0 0px / contain;
 }
 .day_Five1:checked+.dayFive_Label1 {
@@ -144,7 +144,7 @@
     padding:15px;
     width: 30px;
     height: 30px;
-    border:1px solid #dcd4e3;
+    border:1px solid #5dae8a;
     background:url('../../img/day1_off.jpg') no-repeat 0 0px / contain;
 }
 .day_btn1:checked+.day_label1 {
@@ -201,10 +201,10 @@
 }
 .Stime {
     width:90px;
-    border:1px solid #997fb5;
+    border:1px solid #5dae8a;
     margin-left:5px;
     padding:5px;
-    color:#997fb5;
+    color:#5dae8a;
 }
 .startime_wrap {
     padding:20px 0;
@@ -219,8 +219,8 @@
 .time_btn {
     width:125px;
     height: 40px;
-    background:#997fb5;
-    border:1px solid #997fb5;
+    background:#5dae8a;
+    border:1px solid #5dae8a;
     color:white;
     margin:0 10px;
 }
@@ -242,14 +242,14 @@
 .Weekend_btn {
     width: 35px;
     margin: 0 3px;
-    background: #997fb5;
+    background: #5dae8a;
     color: white;
-    border: 1px solid #997fb5;
+    border: 1px solid #5dae8a;
 }
 .Weekend_btn:active {
     background:white;
-    color:#997fb5;
-    border:1px solid #997fb5;
+    color:#5dae8a;
+    border:1px solid #5dae8a;
 }
 .form-check {
     float:right;
@@ -265,10 +265,10 @@
 }
 .Stimetwo {
     width:90px;
-    border:1px solid #997fb5;
+    border:1px solid #5dae8a;
     margin:0 5px;
     padding:5px;
-    color:#997fb5;
+    color:#5dae8a;
 }
 .startime_wrap_two {
     padding:30px 0;
@@ -283,8 +283,8 @@
 .time_btn_two {
     width:125px;
     height: 40px;
-    background:#997fb5;
-    border:1px solid #997fb5;
+    background:#5dae8a;
+    border:1px solid #5dae8a;
     color:white;
     margin:0 10px;
 }
@@ -312,14 +312,14 @@
 .break_text {
     padding:15px 0;
     font-size:20px;
-    color:#997fb5;
+    color:#5dae8a;
 }
 .break_timebtn {
     display: block;
     width:350px;
     height:50px;
     border-radius: 5px;
-    border:1px solid #997fb5;
+    border:1px solid #5dae8a;
     background:white;
     color:#333;
     margin:15px auto;
@@ -375,7 +375,7 @@
 .break_time_icon {
     float: right;
     line-height: 1.3;
-    color: #997fb5;
+    color: #5dae8a;
     font-size: 20px;
 }
 
@@ -384,10 +384,10 @@
 }
 .Btime {
     width:90px;
-    border:1px solid #997fb5;
+    border:1px solid #5dae8a;
     margin-left:5px;
     padding:5px;
-    color:#997fb5;
+    color:#5dae8a;
 }
 .breaktime_wrap {
     padding:20px 0;
@@ -402,8 +402,8 @@
 .break_add_btn {
     width:130px;
     height: 40px;
-    background:#997fb5;
-    border:1px solid #997fb5;
+    background:#5dae8a;
+    border:1px solid #5dae8a;
     color:white;
 }
 .break_close_btn {
@@ -431,7 +431,7 @@
 .regular_text {
     padding:15px 0;
     font-size:20px;
-    color:#997fb5;
+    color:#5dae8a;
 }
 .regular_one > p {
     font-size:14px;
@@ -456,9 +456,9 @@
 }
 .Rday {
     width:125px;
-    border:1px solid #997fb5;
+    border:1px solid #5dae8a;
     margin-left:5px;
-    color:#997fb5;
+    color:#5dae8a;
     padding:0 5px;
 }
 .regular_wrap {
@@ -480,8 +480,8 @@
 .regular_add_btn {
     width:125px;
     height: 40px;
-    background:#997fb5;
-    border:1px solid #997fb5;
+    background:#5dae8a;
+    border:1px solid #5dae8a;
     color:white;
     margin:0 10px;
 }
@@ -509,7 +509,7 @@
 .temporary_text {
     padding:15px 0;
     font-size:20px;
-    color:#997fb5;
+    color:#5dae8a;
 }
 .temporary_one > p {
     font-size:14px;
@@ -567,10 +567,10 @@
 }
 .Tday {
     width:120px;
-    border:1px solid #997fb5;
+    border:1px solid #5dae8a;
     margin-left:5px;
     padding:5px;
-    color:#997fb5;
+    color:#5dae8a;
 }
 .temporary_wrap {
     padding:20px 0;
@@ -584,10 +584,10 @@
 }
 .Ttime {
     width:135px;
-    border:1px solid #997fb5;
+    border:1px solid #5dae8a;
     margin-left:5px;
     padding:4px;
-    color:#997fb5;
+    color:#5dae8a;
 }
 .temporary_timebtn_box {
     margin:15px 0;
@@ -603,10 +603,10 @@
 .temporary_timebtn {
     width: 300px;
     height:40px;
-    border:1px solid #997fb5;
+    border:1px solid #5dae8a;
     border-radius: 3px;
     background:none;
-    color:#997fb5;
+    color:#5dae8a;
 }
 
 .temporary_btn_wrap {
@@ -616,8 +616,8 @@
 .temporary_add_btn {
     width:100%;
     height: 40px;
-    background:#997fb5;
-    border:1px solid #997fb5;
+    background:#5dae8a;
+    border:1px solid #5dae8a;
     border-radius:5px;
     color:white;
 }
@@ -657,11 +657,11 @@
     transition: .2s;
 }
 #switch:checked+.switch_label {
-    background:#997fb5;
-    border:2px solid #997fb5;
+    background:#5dae8a;
+    border:2px solid #5dae8a;
 }
 #switch:checked+.switch_label:hover {
-    background:#997fb5;
+    background:#5dae8a;
 }
 #switch:checked+.switch_label .onf_btn {
     left: 23px;

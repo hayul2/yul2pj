@@ -13,17 +13,17 @@
     align-items: center;
 }
 .oper_text {
-    color:#997fb5;
+    color:#5dae8a;
     font-size:36px;
     padding:0 30px;
     float:left;
     line-height:0.8;
 }
 .logcheck_btn {
-  border:1px solid #997fb5;
+  border:1px solid #5dae8a;
   border-radius:5px;
   background:white;
-  color:#997fb5;
+  color:#5dae8a;
   padding:3px;
 }
 .operation_text {
@@ -86,17 +86,17 @@
   padding:30px 15px;
 }
 .oper_shop_btn {
-  border:1px solid #997fb5;
+  border:1px solid #5dae8a;
   border-radius:10px;
   background:white;
-  color:#997fb5;
+  color:#5dae8a;
   margin:0 5px;
   padding:5px;
 }
 
 .xi-help-o {
   font-size:24px;
-  color:#997fb5;
+  color:#5dae8a;
   border:none;
   background:white;
   padding-bottom:30px;
@@ -106,9 +106,9 @@
   font-size:14px;
   text-align: right;
   padding:10px 10px;
-  color: #997fb5;
+  color: #5dae8a;
   position:relative;
-  border:1px solid #997fb5;
+  border:1px solid #5dae8a;
   border-radius: 3px;
 }
 .shop_help:before {
@@ -116,7 +116,7 @@
 	position: absolute;
 	border-style: solid;
 	border-width: 0 13px 20px 10.5px;
-	border-color: #997fb5 transparent;
+	border-color: #5dae8a transparent;
 	display: block;
 	width: 0;
 	z-index: 0;
@@ -153,7 +153,7 @@
     display: inline-block;
     border-radius: 5px;
     margin:0 10px;
-    border:1px solid #997fb5;
+    border:1px solid #5dae8a;
     border-radius:15px;
     width:20%;
     height: 200px;
@@ -165,7 +165,7 @@
     font-weight: 500;
     text-align: center;
     padding: 15px 15px;
-    color:#997fb5;
+    color:#5dae8a;
     cursor: pointer;
   }
   .oper_btn_box {
@@ -174,7 +174,7 @@
   .oper_title_btn {
       border:none;
       background:none;
-      color:#997fb5;
+      color:#5dae8a;
       font-size: 16px;
       padding:15px 15px;
       text-align: center;

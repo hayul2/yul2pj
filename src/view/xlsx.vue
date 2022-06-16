@@ -85,7 +85,7 @@ export default {
 <style>
   .xlsx_btn {
     background:none;
-    color:#997fb5;
+    color:#5dae8a;
     text-decoration: underline;
   }
 </style>

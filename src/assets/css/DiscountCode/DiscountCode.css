@@ -8,7 +8,7 @@
     padding:15px 15px
   }  
 .discount_main_text {
-    color:#997fb5;
+    color:#5dae8a;
     font-size:36px;
 }
 .discount_router_wrap {
@@ -19,7 +19,7 @@
 }
 .discount_router_name {
   margin:0 30px;
-  color:#997fb5;
+  color:#5dae8a;
   position:relative;
 }
 /* .discount_router_name:first-child {

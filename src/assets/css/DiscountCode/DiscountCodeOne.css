@@ -7,16 +7,16 @@
     padding:0 5px;
 }
 .proceeding_header_btn {
-    border:1px solid #997fb5;
+    border:1px solid #5dae8a;
     background:white;
     padding:5px 15px;
-    color:#997fb5;
+    color:#5dae8a;
     border-radius: 2px;
     margin:0 5px;
 }
 .proceeding_header_right_btn {
     border:none;
-    background:#dcd4ed;
+    background:#5dae8a;
     padding:5px 15px;
     color:white;
     border-radius: 2px;
@@ -32,7 +32,7 @@
     padding:15px 30px;
 }
 .proceeding_modal_title {
-    color:#997fb5;
+    color:#5dae8a;
     font-size:24px;
 }
 .proceeding_modal_sub_title {
@@ -52,7 +52,7 @@
 .proceeding_modal_btn {
     width: 100%;;
     border:none;
-    background:#997fb5;
+    background:#5dae8a;
     color:white;
     padding:10px 0;
     border-radius: 10px;
@@ -70,7 +70,7 @@
     text-align: center;
 }
 .proceeding_modal_date {
-    border:1px solid #997fb5;
+    border:1px solid #5dae8a;
     margin:10px 0;
 }
 /*--------할인코드 정보 모달창---------*/
@@ -79,7 +79,7 @@
     position:absolute; padding:20px;
     top:0; left:40%;
     z-index: 111;
-    border:1px solid #997fb5;
+    border:1px solid #5dae8a;
     background:white;
     border-radius: 5px;
 }
@@ -93,7 +93,7 @@
 .discountinfo_main_title {
     background: none;
     font-size: 20px;
-    color: #997fb5;
+    color: #5dae8a;
     width: 200px;
     height: 100px;
     text-align: left;
@@ -114,13 +114,13 @@
     margin:0 auto;
 }
 .proceeding_head {
-    background:#997fb5;
+    background:#5dae8a;
     color:white;
     padding:10px 0;
     text-align: center;
 }
 .proceeding_title {
-    background:#c2b4cd;
+    background:#5dae8a;
     color:#fff;
 }
 .proceeding_col {
@@ -144,12 +144,12 @@
 }
 .proceeding_data {
     text-decoration: none;
-    color:#997fb5;
+    color:#5dae8a;
     padding:5px 0;
     border-bottom:1px solid #ddd;
 }
 tbody {
-    color:#997fb5;
+    color:#5dae8a;
 }
 .proceeding_end_btn {
     border:none;
