@@ -9,7 +9,7 @@
     padding:15px 15px
   }
   .main_text {
-    color:#333;
+    color:#5dae8a;
     font-size:36px;
   }
   .component_bar {
@@ -23,7 +23,7 @@
   }
   .component_name {
     margin:0 30px;
-    color:#997fb5;
+    color:#5dae8a;
     position:relative;
   }
   /* .first::after {
@@ -79,11 +79,11 @@
   .list {
     font-size:24px;
     padding:0 10px;
-    color:#997fb5;
+    color:#5dae8a;
   }
   #order_select {
     width:70px;
-    border:1px solid #997fb5;
+    border:1px solid #5dae8a;
     background:none;
     text-align: center;
     font-size:14px;

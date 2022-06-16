@@ -23,7 +23,7 @@
     display: flex;
     justify-content: space-between;
     font-size: 30px;
-    color:#997fb5;
+    color:#5dae8a;
     padding:30px;
   }
   .xi-close {
@@ -31,7 +31,7 @@
   }
   .print_text {
       padding:30px;
-      color:#997fb5;
+      color:white;
   }
 
   .orderprint_box1,
@@ -39,7 +39,7 @@
     width: 50%;
     height:400px;
     display: inline-block;
-    background:#f5f3f7;
+    background:#f1fdf3;
     border-radius: 5px;
     margin: 0 100px;
   }
@@ -124,8 +124,8 @@
         padding:15px 30px;
     }  
     .cancel_btn {
-        background:#dcd4e3;
-        color:#997fb5;
+        background:#5dae8a;
+        color:white;
         border:none;
     }
   /* ordersheet print btn */
@@ -134,21 +134,21 @@
     padding-top:30px;
   }
   .print_page-btn {
-    border: 1px solid #997fb5;
+    border: 1px solid #f1fdf3;
     border-bottom:none;
     border-right:none;
-    background:#f5f3f7;
+    background:#5dae8a;
     color: #fff;
   }
   .print_receipt_btn {
     width:50%;
     height:58px;
-    border:1px solid #997fb5;
+    border:1px solid #f1fdf3;
     border-bottom:none;
     border-left:none;
     border-right:none;
-    color: #997fb5;
-    background:#f5f3f7;
+    color: #5dae8a;
+    background:white;
   }
 
   .print_page-btn {
@@ -163,17 +163,17 @@
     display: none;
   }
   .print_btn_icon {
-      color:#997fb5
+      color:white
   }
 /* cancel_modal_btn */
 .cancel_modal_btn {
     background:white;
-    border:1px solid #997fb5;
-    color:#997fb5;
+    border:1px solid #f1fdf3;
+    color:white;
 }
 /* modal */
 .modal-title, .modal-sub-title {
-    color:#997fb5;
+    color:#5dae8a;
 }
 .modal-content {
   border:none;
@@ -184,8 +184,8 @@
 }
 .cancelmodal_btn {
     background:white;
-    border:1px solid #997fb5;
-    color:#997fb5;
+    border:1px solid #f1fdf3;
+    color:#5dae8a;
     margin:0 15px;
 }
 .accordion-button {
@@ -193,15 +193,15 @@
     display:block;
 }
 .accordion-button:not(.collapsed) {
-    color:#997fb5;
+    color:#5dae8a;
     font-size:20px;
 }
 .form-check-input:checked {
-    background-color: #997fb5;
-    border-color: #997fb5  
+    background-color: #5dae8a;
+    border-color: #f1fdf3  
 }
 .form-check-label {
-    color:#997fb5;
+    color:#5dae8a;
 }
 .accordion-item:last-of-type .accordion-button.collapsed {
     font-size:20px;
@@ -237,7 +237,7 @@
         display: flex;
         justify-content: space-between;
         font-size: 24px;
-        color:#997fb5;
+        color:#5dae8a;
         padding:30px;
       }
       .xi-close {
@@ -245,15 +245,15 @@
       }
       .print_text {
           padding:0px;
-          color:#997fb5;
+          color:#5dae8a;
       }
     
       .orderprint_box2 {
         width: 100%;
         height:500px;
-        background:#f5f3f7;
+        background:#f1fdf3;
         display: inline-block;
-        border: 1px solid #997fb5;
+        border: 1px solid #5dae8a;
         border-radius: 5px;
         margin: 0 100px;
       }
@@ -336,8 +336,8 @@
             padding:15px 30px;
         }  
         .cancel_btn {
-            background:#dcd4e3;
-            color:#997fb5;
+            background:#f1fdf3;
+            color:#5dae8a;
             border:none;
         }
         /* ordersheet print btn */
@@ -346,7 +346,7 @@
             padding-top:30px;
         }
         .print_page-btn {
-            border: 1px solid #997fb5;
+            border: 1px solid #5dae8a;
             border-bottom:none;
             border-right:none;
             color: #fff;
@@ -354,11 +354,11 @@
         .print_receipt_btn {
             width:50%;
             height:58px;
-            border:1px solid #997fb5;
+            border:1px solid #5dae8a;
             border-bottom:none;
             border-left:none;
             border-right:none;
-            color: #997fb5;
+            color: #5dae8a;
         }
 
         .print_page-btn {
@@ -373,7 +373,7 @@
             display: none;
         }
         .print_btn_icon {
-            color:#997fb5
+            color:#5dae8a
         }
     
   } 

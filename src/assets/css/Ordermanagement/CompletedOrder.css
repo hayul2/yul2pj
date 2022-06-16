@@ -23,7 +23,7 @@
   .complete_box3 {
     width: 33%;
     display: inline-block;
-    border: 1px solid #997fb5;
+    border: 1px solid #5dae8a;
     border-radius: 5px;
     margin: 0 30px;
   }
@@ -39,13 +39,13 @@
     padding:15px 0;
   }
   .order_small_flex2>span:first-child {
-    color:#997fb5;
+    color:#5dae8a;
   }
   .form_box {
     display: flex;
     justify-content: space-between;
     padding: 15px 30px;
-    color: #997fb5;
+    color: #5dae8a;
   }
   .one_checkbox {
     margin-right: 15px;
@@ -62,12 +62,12 @@
     border-top:none;
   }
   .complete_left:hover {
-    background:#dcd4e3
+    background:#f1fdf3;
   }
   .complete_num {
-    border: 1px solid #997fb5;
+    border: 1px solid #5dae8a;
     font-size: 20px;
-    color: #997fb5;
+    color: #5dae8a;
     border-radius: 50%;
     line-height: 2.9;
     text-align: center;
@@ -79,7 +79,7 @@
   }
   .complete_time {
     padding-top:10px;
-    color:#a7a7a7;
+    color:#5dae8a;
   }
   
   .com_title {
@@ -114,7 +114,7 @@
   }
   .payment_right {
     text-align: end;
-    color: #747474;
+    color: #5dae8a;
     font-weight: 500;
     line-height: 2;
   }
@@ -159,13 +159,13 @@
     padding:30px 0;
   }
   .order_page-btn {
-    background: #997fb5;
-    border: 1px solid #997fb5;
+    background: #5dae8a;
+    border: 1px solid #5dae8a;
     color: #fff;
     margin: 0 15px;
   }
   .order_page-count {
-    background: #997fb5;
+    background: #5dae8a;
     color: #fff;
     padding: 5px 15px;
   }
@@ -176,19 +176,19 @@
     width:50%;
     height:50px;
     background:white;
-    border:1px solid #997fb5;
+    border:1px solid #5dae8a;
     border-bottom:none;
     border-left:none;
-    color: #997fb5;
+    color: #5dae8a;
   }
   .menulist_page-btn {
     width:25%;
     height:50px;
     background:white;
-    border:1px solid #997fb5;
+    border:1px solid #5dae8a;
     border-bottom:none;
     border-right:none;
-    color:#997fb5;
+    color:#5dae8a;
   }
   .menulist_page-btn:first-child {
     border-left:none
