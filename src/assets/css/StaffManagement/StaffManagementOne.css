@@ -4,7 +4,7 @@
     padding: 30px 0;
   }
   .staff_text {
-    color:#997fb5;
+    color:#5dae8a;
     font-size:36px;
     padding:0 30px;
   }
@@ -21,7 +21,7 @@
     align-items: center;
 }
 .staff_one_addbtn {
-  background:#c8b6dd;
+  background:#5dae8a;
   color:white;
   border-radius:3px;
   border:none;
@@ -69,15 +69,15 @@
     color: #fff;
   } */
   .staff_head {
-    border-bottom: 2px solid #c2b4cd;
+    border-bottom: 2px solid #5dae8a;
     position: relative;
     height: 40px;
   }
   .staff_title {
-    background: #c2b4cd;
+    background: #5dae8a;
     color: #fff;
     text-align: center;
-    border-bottom:1px solid #ddd;
+    border-bottom:1px solid #f1fdf3;
   }
   .staff_col {
     font-weight: 500;
@@ -106,7 +106,7 @@
   }
 
   .StaffCondition {
-    color:#997fb5;
+    color:#5dae8a;
     text-decoration: none;
   }
 
@@ -122,13 +122,13 @@
       font-size:14px;
   }
   tbody {
-    color: #997fb5;
+    color: #5dae8a;
     text-align: center;
   }
 
   .s_page-btn {
-    background: #997fb5;
-    border: 1px solid #997fb5;
+    background: #5dae8a;
+    border: 1px solid #f1fdf3;
     color: #fff;
     margin: 0 15px;
   }
@@ -138,7 +138,7 @@
       padding:30px 0;
   }
   .s_page-count {
-    background: #997fb5;
+    background: #5dae8a;
     color: #fff;
     padding: 5px 15px;
   }
@@ -159,10 +159,10 @@
   }
   /* td btn */
   .btn-check:focus+.btn, .btn:focus {
-      background:#997fb5;
+      background:#5dae8a;
       color:white;
   }
   .button:focus:not(:focus-visible) {
     background:white;
-    color:#997fb5;
+    color:#5dae8a;
   }

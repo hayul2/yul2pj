@@ -16,12 +16,12 @@
 }
 /* td btn */
 .btn-check:focus+.btn, .btn:focus {
-    background:#997fb5;
+    background:#5dae8a;
     color:white;
 }
 .authority {
     background:white;
-    color:#997fb5;
+    color:#5dae8a;
 }
 .staff_clear {
     text-align: center;
@@ -32,23 +32,23 @@
     border-radius: 10px;
     height: 35px;
     background:white;
-    color:#997fb5;
-    border: 1px solid #997fb5;
+    color:#5dae8a;
+    border: 1px solid #f1fdf3;
 }
 .clear_btn:hover {
-    color: #997fb5
+    color: #5dae8a
 }
 .modal-content {
     font-size:14px;
-    color:#997fb5;
+    color:#5dae8a;
 }
 .btn-primary:hover {
-    background:#997fb5;
+    background:#5dae8a;
     color:white;
     border:none;
 }
 .btn-secondary:hover {
-    background:#997fb5;
+    background:#5dae8a;
     color:white;
     border:none;
 }
