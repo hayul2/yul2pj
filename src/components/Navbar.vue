@@ -4,8 +4,7 @@
       <li class="nav-item">
         <router-link to="/main" class="nav-link">
         <div class="nav-wrap">
-        <i class="xi-cloud-o"></i>
-        <p class="nav-link active" aria-current="page">로고</p>
+          <img src="../assets/img/logo.png" alt="logo">
         </div>
         </router-link>
       </li>
@@ -14,6 +13,7 @@
         <div class="nav-wrap">
         <i class="xi-cloud-o"></i>
         <p class="nav-link">메뉴관리</p>
+          <!-- <img src="../assets/img/menu.png" alt="menu"> -->
         </div>
         </router-link>
       </li>
@@ -22,6 +22,7 @@
           <div class="nav-wrap">
             <i class="xi-cloud-o"></i>
             <p class="nav-link">매출관리</p>
+            <!-- <img src="../assets/img/sales.png" alt="sales"> -->
           </div>
         </router-link>
       </li>
@@ -30,6 +31,7 @@
           <div class="nav-wrap">
             <i class="xi-cloud-o"></i>
             <p class="nav-link">주문관리</p>
+          <!-- <img src="../assets/img/order.png" alt="order"> -->
           </div>
         </router-link>
       </li>
@@ -38,6 +40,7 @@
           <div class="nav-wrap">
             <i class="xi-cloud-o"></i>
             <p class="nav-link">직원관리</p>
+          <!-- <img src="../assets/img/staff.png" alt="staff">             -->
           </div>
         </router-link>
       </li>
@@ -46,6 +49,7 @@
           <div class="nav-wrap">
             <i class="xi-cloud-o"></i>
             <p class="nav-link">운영관리</p>
+          <!-- <img src="../assets/img/cooper.png" alt="cooper">             -->
           </div>
         </router-link>
       </li>
@@ -54,6 +58,7 @@
           <div class="nav-wrap">
             <i class="xi-cloud-o"></i>
             <p class="nav-link">할인코드</p>
+          <!-- <img src="../assets/img/discount.png" alt="discount">             -->
           </div>
         </router-link>
       </li>

@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <p class="info_img">img</p>
+    <img src="../assets/img/logo.png" alt="logo">
     <p class="info_text">하율커피 </p>
     <div class="wrap">
       <div class="wrap1">
