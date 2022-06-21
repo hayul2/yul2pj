@@ -11,7 +11,7 @@
       <li class="nav-item">
         <router-link to="/menumanagement/categories" class="nav-link">
         <div class="nav-wrap">
-        <i class="xi-cloud-o"></i>
+        <i class="xi-cafe nav_icon"></i>
         <p class="nav-link">메뉴관리</p>
           <!-- <img src="../assets/img/menu.png" alt="menu"> -->
         </div>
@@ -20,16 +20,16 @@
       <li class="nav-item">
         <router-link to="/salesmanagement/SalesManagementOne" class="nav-link">
           <div class="nav-wrap">
-            <i class="xi-cloud-o"></i>
+            <i class="xi-calculator nav_icon"></i>
             <p class="nav-link">매출관리</p>
             <!-- <img src="../assets/img/sales.png" alt="sales"> -->
-          </div>
+          </div> 
         </router-link>
       </li>
       <li class="nav-item">
         <router-link to="/ordermanagement/neworderlistone" class="nav-link">
           <div class="nav-wrap">
-            <i class="xi-cloud-o"></i>
+            <i class="xi-chart-bar-square nav_icon"></i>
             <p class="nav-link">주문관리</p>
           <!-- <img src="../assets/img/order.png" alt="order"> -->
           </div>
@@ -38,7 +38,7 @@
       <li class="nav-item">
         <router-link to="/staffmanagementone" class="nav-link">
           <div class="nav-wrap">
-            <i class="xi-cloud-o"></i>
+            <i class="xi-group nav_icon"></i>
             <p class="nav-link">직원관리</p>
           <!-- <img src="../assets/img/staff.png" alt="staff">             -->
           </div>
@@ -47,7 +47,7 @@
       <li class="nav-item">
         <router-link to="/operationmanagement" class="nav-link">
           <div class="nav-wrap">
-            <i class="xi-cloud-o"></i>
+            <i class="xi-comment-o nav_icon"></i>
             <p class="nav-link">운영관리</p>
           <!-- <img src="../assets/img/cooper.png" alt="cooper">             -->
           </div>
@@ -56,7 +56,7 @@
       <li class="nav-item">
         <router-link to="/discountcode/discountcodeone" class="nav-link">
           <div class="nav-wrap">
-            <i class="xi-cloud-o"></i>
+            <i class="xi-percent  nav_icon"></i>
             <p class="nav-link">할인코드</p>
           <!-- <img src="../assets/img/discount.png" alt="discount">             -->
           </div>
