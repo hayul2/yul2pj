@@ -1,72 +1,75 @@
 .container {
-    width:100%;
-    margin:0 auto;
-  }
-    .info_img {
-    width:70px;
-    height:70px;
-    border:1px solid #5dae8a;
-    border-radius: 100%;
-    line-height:4;
-    margin:0 auto;
-    color:#333;
-    font-weight: 300;
-  }
-    .info_text {
-    padding:30px 0;
-  }
-    .wrap{
-    margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-  }
-    .wrap1{
-    float: left;
-  }
-    .wrap1 .info_left{
-    margin: 10px;
-    text-align: left;
-    color:#333;
-  }
-    .wrap2{
-    float: left;
-    position: relative;
-    right: 0px;
-    }
-    .wrap2 .info_right{
-    text-align: end;
-    margin: 10px;
-    color:#333;
-    font-weight:300;
-  }
-    .info_order_text {
-    position:relative;
-    padding:20px 0;
-  }
-    .info_order_text:after {
-    position:absolute;
-    display: block;
-    content: '';
-    width:100%;
-    height:1px;
-    background:#333;
-    top:10%;
-    left:0;
-  }
-    .logout-btn {
-    width:100%;
-    border:1px solid #5dae8a;
-    background:transparent;
-    color:#5dae8a;
-    height:50px;
-    margin:15px 0;
-    border-radius:3px;
-  }
-    /* media query */
-    @media ( min-width : 768px) {
-  }
-    @media ( min-width : 992px) {
-  }
-    @media ( min-width : 1200px) {
-  }
+  width: 100%;
+  margin: 0 auto;
+}
+.myinfo_img {
+  width:100px;
+  padding:0 10px;
+  margin:0 auto
+}
+.info_text {
+  padding: 30px 0;
+}
+
+.wrap {
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.wrap1 {
+  float: left;
+}
+
+.wrap1 .info_left {
+  margin: 10px;
+  text-align: left;
+  color: #333;
+}
+
+.wrap2 {
+  float: left;
+  position: relative;
+  right: 0px;
+}
+
+.wrap2 .info_right {
+  text-align: end;
+  margin: 10px;
+  color: #333;
+  font-weight: 300;
+}
+
+.info_order_text {
+  position: relative;
+  padding: 20px 0;
+}
+
+.info_order_text:after {
+  position: absolute;
+  display: block;
+  content: '';
+  width: 100%;
+  height: 1px;
+  background: #333;
+  top: 10%;
+  left: 0;
+}
+
+.logout-btn {
+  width: 100%;
+  border: 1px solid #5dae8a;
+  background: transparent;
+  color: #5dae8a;
+  height: 50px;
+  margin: 15px 0;
+  border-radius: 3px;
+}
+
+/* media query */
+@media (min-width : 768px) {}
+
+@media (min-width : 992px) {}
+
+@media (min-width : 1200px) {}

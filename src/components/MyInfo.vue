@@ -1,6 +1,8 @@
 <template>
   <div class="container">
-    <img src="../assets/img/logo.png" alt="logo">
+    <div class="myinfo_img">
+    <img src="../assets/img/myinfoimg.png" alt="logo" style="width:80px;border-radius:100%">
+    </div>
     <p class="info_text">하율커피 </p>
     <div class="wrap">
       <div class="wrap1">

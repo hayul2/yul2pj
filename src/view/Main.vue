@@ -13,6 +13,10 @@
       </div>
     </div>
     <div class="component">
+      <!-- 로그인 정보 컴포넌트 -->
+      <MyInfo/>
+    </div>    
+    <div class="component">
       <!-- 주문관리 컴포넌트 -->
       <OrderManage/>
     </div>
@@ -20,10 +24,7 @@
       <!-- 메뉴현황 컴포넌트 -->
       <Menu/>
     </div>
-    <div class="component">
-      <!-- 로그인 정보 컴포넌트 -->
-      <MyInfo/>
-    </div>
+
 
   </div>
 
