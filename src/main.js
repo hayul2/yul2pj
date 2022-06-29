@@ -16,6 +16,8 @@ import ShopCondition from "../src/view/ShopCondition.vue";
 const emitter = mitt();
 const app = createApp(App);
 const sweet = require("sweetalert2");
+const image = require('./assets/img/logo.png');
+
 
 app.config.globalProperties.emitter = emitter;
 app.config.globalProperties.axios = axios;

@@ -4,7 +4,7 @@
       <li class="nav-item">
         <router-link to="/main" class="nav-link">
         <div class="nav-wrap">
-          <img src="../assets/img/logo.png" alt="logo">
+          <img :src="require('@/assets/img/logo.png')">
         </div>
         </router-link>
       </li>
@@ -87,6 +87,7 @@ export default {
     return{
       isUserRole : false,
     }
+    
   },
   methods:{
     doLogOut () {
@@ -97,6 +98,7 @@ export default {
     },
     
   },
+  
 }
 </script>
 

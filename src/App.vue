@@ -35,6 +35,7 @@ export default {
     return {
       servStat: 'offline',
       // logCheck : false,s
+
     }
   },
   components: {},
@@ -50,7 +51,6 @@ export default {
         console.log(res.data)
       })
     },
-
     servCheck: async function () {
       console.log("체크기 실행")
       try {
@@ -63,12 +63,7 @@ export default {
       } catch (e) {
         console.log(e)
       }
-
-    }
-  },
-  created () {
-
-  },
+    },
 
   mounted () {
 
@@ -82,6 +77,7 @@ export default {
 //     return require('./assets/img/logo.png')
 // }
 //   }
+}
 }
 </script>
 
