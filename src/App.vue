@@ -33,9 +33,8 @@ import animate from 'animate.css'
 export default {
   data () {
     return {
-      servStat: 'offline'
-      // logCheck : false,
-
+      servStat: 'offline',
+      // logCheck : false,s
     }
   },
   components: {},
@@ -78,6 +77,11 @@ export default {
     // setInterval(this.servCheck, 3000)
     this.servCheck()
   },
+//   computed: {
+//   iconUrl () {
+//     return require('./assets/img/logo.png')
+// }
+//   }
 }
 </script>
 
@@ -113,6 +117,9 @@ ul {
 .nav-link {
   color: #997fb5;
   text-decoration: none;
+}
+.nav-link:first-child {
+  background:('../assets/img/logo.png')
 }
 
 .nav-link:hover {

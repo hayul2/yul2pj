@@ -10,6 +10,7 @@ import "./assets/sweetalert2.min.css";
 /*-----vue3-date-time-picker-----*/
 import Datepicker from "vue3-date-time-picker";
 import "vue3-date-time-picker/dist/main.css";
+/*-----vue xlsx-----*/
 import VueExcelXlsx from "vue-excel-xlsx";
 import ShopCondition from "../src/view/ShopCondition.vue";
 const emitter = mitt();

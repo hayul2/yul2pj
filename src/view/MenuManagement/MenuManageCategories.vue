@@ -169,6 +169,7 @@
     </div>
   </div>
 </template>
+
 <script>
 import _ from "lodash";
 import axios from "axios";
@@ -200,7 +201,6 @@ export default {
       conditionkey: [],
     };
   },
-  components: {},
   methods: {
     //전체선택 상태변경 버튼
     chooseStatus(choose) {

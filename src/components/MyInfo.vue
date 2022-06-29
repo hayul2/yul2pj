@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <div class="myinfo_img">
-    <img src="../assets/img/myinfoimg.png" alt="logo" style="width:80px;border-radius:100%">
+    <img src="../assets/img/myinfoimg.png" alt="img" style="width:80px;border-radius:100%">
     </div>
     <p class="info_text">하율커피 </p>
     <div class="wrap">

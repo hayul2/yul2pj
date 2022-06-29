@@ -69,14 +69,16 @@
     </div>
   </div>
 </template>
+
 <script>
 import { ref } from "vue";
 import { forEach } from "lodash";
 import _ from "lodash";
-import SalesSort from "./SalesSort.vue";
+// import SalesSort from "./SalesSort.vue";
 
 export default {
-  components: {},
+  components: {
+  },
   data() {
     return {
       //sorting
