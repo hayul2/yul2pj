@@ -7,18 +7,18 @@
   display: flex;
   justify-content: space-between;
   font-size: 30px;
-  color: #997fb5;
+  color: #5dae8a;
   padding: 0 20px;
 }
 .menu_btn:last-child {
   float: right;
-  background: #997fb5;
+  background: #5dae8a;
   color: #fff;
   border-radius: 5px;
   line-height: 1.2;
 }
 .xi-close {
-  color: #997fb5;
+  color: #5dae8a;
 }
 .log_main_text {
   text-align: left;
@@ -38,10 +38,10 @@
   padding: 20px 20px;
 }
 .log_menu_btn {
-  border: 1px solid #997fb5;
+  border: 1px solid #5dae8a;
   padding: 5px 10px;
   background: white;
-  color: #997fb5;
+  color: #5dae8a;
   margin: 0 10px;
 }
 .category_wrap {
@@ -52,18 +52,23 @@
   text-align: center;
   margin: 0 10px;
   width: 100px;
-  border:1px solid #997fb5;
+  border:1px solid #5dae8a;
+}
+.log_wrapper {
+  overflow: hidden;
+  position:relative;
+  padding:0 10px;
 }
 .log_table {
-  width: 85%;
+  width: 100%;
   margin: 0 auto;
 }
 .log_head {
-  border-bottom: 2px solid #c2b4cd;
+  border-bottom: 2px solid #5dae8a;
   position: relative;
 }
 .log_title {
-  background: #c2b4cd;
+  background: #5dae8a;
   color: #fff;
   text-align: center;
 }
@@ -83,7 +88,7 @@
   background: #fff;
 }
 tbody {
-  color: #997fb5;
+  color: #5dae8a;
   font-size:14px;
 }
 .page-btn {
@@ -100,7 +105,7 @@ tbody {
 
 /* datepicker */
 .v3dp__datepicker {
-    border:1px solid #997fb5;
+    border:1px solid #5dae8a;
 }
 .v3dp__input_wrapper {
     border:none;
@@ -114,8 +119,8 @@ tbody {
 }
 .log_hidden_btn {
     width: 70px;
-    border:1px solid #997fb5;
-    background:#997fb5;
+    border:1px solid #f1fdf3;
+    background:#5dae8a;
     border-radius: 5px;
     color:white;
     font-size: 14px;
