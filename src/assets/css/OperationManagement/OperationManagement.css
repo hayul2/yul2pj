@@ -1,11 +1,9 @@
 .oper_container {
-    width:100%;
     margin:0 auto;
-    padding:30px 0;
 }
 .oper_wrap{
     margin: 0 auto;
-    padding: 30px 0;
+    padding: 15px 15px;
     position: relative;
     display: flex;
     flex-direction: row;
@@ -15,9 +13,8 @@
 .oper_text {
     color:#5dae8a;
     font-size:36px;
-    padding:0 30px;
     float:left;
-    line-height:0.8;
+    line-height:0.7;
 }
 .logcheck_btn {
   border:1px solid #5dae8a;

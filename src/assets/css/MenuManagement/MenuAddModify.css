@@ -9,7 +9,7 @@
 }
 .MenuAddmodify_title {
     font-size:24px;
-    color:#997fb5;
+    color:#5dae8a;
 }
 .MenuAddmodify_close {
     font-size:24px;
@@ -36,8 +36,8 @@
     padding:15px 0;
 }
 .MenuAddmodify_img_btn {
-    border: 1px solid #997fb5;
-    color: #997fb5;
+    border: 1px solid #5dae8a;
+    color: #5dae8a;
     border-radius: 10px;
     background: white;
     padding: 5px;
@@ -57,11 +57,11 @@
     padding:30px 0;
 }
 .MenuAddmodify_btn {
-    border:1px solid #997fb5;
+    border:1px solid #f1fdf3;
     color:white;
     border-radius: 5px;
     padding:10px 30px;
-    background: #997fb5;
+    background: #5dae8a;
     width:80%;
 }
 /* 카테고리설졍 콜랩스*/

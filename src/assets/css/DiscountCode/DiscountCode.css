@@ -12,13 +12,11 @@
     font-size:36px;
 }
 .discount_router_wrap {
-  padding:15px 0;
   margin:0 auto;
   position:relative;
   width: 80%;
 }
 .discount_router_name {
-  margin:0 30px;
   color:#5dae8a;
   position:relative;
 }

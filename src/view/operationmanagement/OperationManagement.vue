@@ -5,7 +5,7 @@
     <div class="oper_wrap">
       <div>
       <h2 class="oper_text">운영관리</h2>
-        <router-link to="/LogCheck"><span class="logcheck_btn">로그확인</span></router-link>
+        <router-link to="/LogCheck" style="padding:0 15px"><span class="logcheck_btn">로그확인</span></router-link>
       </div>
       <ShopCondition class="oper_right"></ShopCondition>
       </div>  

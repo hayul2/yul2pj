@@ -1,32 +1,37 @@
 .ordermanage_container {
-    width:100%;
-    margin:0 auto;
-  }
-  .main_wrap {
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
-    padding:15px 15px
-  }
-  .main_text {
-    color:#5dae8a;
-    font-size:36px;
-  }
-  .component_bar {
-    padding:15px 0;
-    margin:0 auto;
-    position:relative;
-    width: 80%;
-  }
-  .component_bar > a {
-    text-decoration: none;
-  }
-  .component_name {
-    margin:0 30px;
-    color:#5dae8a;
-    position:relative;
-  }
-  /* .first::after {
+  margin: 0 auto;
+}
+
+.main_wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:15px 15px
+}
+
+.main_text {
+  color: #5dae8a;
+  font-size: 36px;
+}
+
+.component_bar {
+  padding: 15px 0;
+  margin: 0 auto;
+  position: relative;
+  width: 80%;
+}
+
+.component_bar>a {
+  text-decoration: none;
+}
+
+.component_name {
+  margin: 0 30px;
+  color: #5dae8a;
+  position: relative;
+}
+
+/* .first::after {
     position:absolute;
     bottom:-10px;
     left:0;
@@ -37,16 +42,17 @@
     background:#997fb5;
     z-index:1
   } */
-  .list_wrap {
-      margin: 0 auto;
-      padding:0 30px;
-      position: relative;
-      display: flex;
-      flex-direction: row;
-      justify-content: flex-end;
-      align-items: center;
-  }
-  /* .list_wrap:before {
+.list_wrap {
+  margin: 0 auto;
+  padding: 0 30px;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+/* .list_wrap:before {
     display: block;
     content: '';
     position: absolute;
@@ -66,7 +72,7 @@
     width: 100%;
     height: 1px;
   } */
-  /* .list_wrap::before {
+/* .list_wrap::before {
     display: block;
     content: '';
     position:absolute;
@@ -76,16 +82,17 @@
     height:1px;
     background:#ddd;
   } */
-  .list {
-    font-size:24px;
-    padding:0 10px;
-    color:#5dae8a;
-  }
-  #order_select {
-    width:70px;
-    border:1px solid #5dae8a;
-    background:none;
-    text-align: center;
-    font-size:14px;
-    border-radius: 15px;
-  }
+.list {
+  font-size: 24px;
+  padding: 0 10px;
+  color: #5dae8a;
+}
+
+#order_select {
+  width: 70px;
+  border: 1px solid #5dae8a;
+  background: none;
+  text-align: center;
+  font-size: 14px;
+  border-radius: 15px;
+}

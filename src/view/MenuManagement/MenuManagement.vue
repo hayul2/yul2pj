@@ -1,4 +1,5 @@
 <template>
+  <!--메뉴관리 첫화면-->
   <Navbar />
   <div class="menu_container">
     <div class="menument_wrap">
@@ -11,6 +12,7 @@
         <i class="xi-bell"></i>
       </div>
     </div>
+    <hr />
     <div class="menu_router_wrap">
       <router-link to="/menumanagement/categories"><span class="menu_router_name">카테고리편집</span></router-link> |
       <router-link to="/menumanagement/menus"><span class="menu_router_name">메뉴편집</span> </router-link> |

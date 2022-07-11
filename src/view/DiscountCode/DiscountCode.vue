@@ -12,11 +12,12 @@
         <i class="xi-bell"></i>
       </div>   
       </div> 
+      <hr />
       <div class="discount_router_wrap">
       <router-link to="/DiscountCode/DiscountCodeOne">
         <span class="discount_router_name">진행중코드</span>
       </router-link> 
-      <router-link to="/DiscountCode/DiscountCodeTwo">
+      <router-link to="/DiscountCode/DiscountCodeTwo" style="padding:0 15px">
         <span class="discount_router_name">종료된코드</span>
       </router-link> 
     </div>

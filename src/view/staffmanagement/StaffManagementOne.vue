@@ -22,14 +22,15 @@
       <button type="button" class="staff_one_addbtn" data-bs-toggle="modal" data-bs-target="#addition" >+ 직원추가</button>
   </div>
   <hr />
+  <div class="staff_table_wrap">
     <table class="staff_table">
       <thead class="staff_head">
         <tr class="staff_title">
           <th scope="col-sm-6" class="staff_col">상태</th>
           <th scope="col-sm-6" class="staff_col">직급</th>
           <th scope="col-sm-6" class="staff_col">아이디</th>
-          <th scope="col-sm-6" class="staff_col">권한</th>
-          <th scope="col-sm-6" class="staff_col">설정</th>
+          <th scope="col-sm-5" class="staff_col">권한</th>
+          <th scope="col-sm-4" class="staff_col">설정</th>
         </tr>
       </thead>
       <tbody>
@@ -53,6 +54,7 @@
         </tr>
       </tbody>
     </table>
+  </div>
     <div class="s_btn-cover">
       <button :disabled="pageNum === 0" @click="prevPage" class="s_page-btn">
         <i class="xi-angle-left"></i>
