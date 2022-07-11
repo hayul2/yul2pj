@@ -27,35 +27,30 @@
     font-size:20px;
 }
 .oper_shop_btn1,
-.oper_shop_btn2,
-.oper_shop_btn3,
-.oper_shop_btn4,
-.oper_shop_btn5 {
+.oper_shop_btn2 {
   display:none;
 }
 .oper_shop_btn1+.oper_shop_label1,
-.oper_shop_btn2+.oper_shop_label2, 
-.oper_shop_btn3+.oper_shop_label3, 
-.oper_shop_btn4+.oper_shop_label4, 
-.oper_shop_btn5+.oper_shop_label5 {
-  background:url('../../img/btn1_off.jpg') no-repeat 0 0px / contain;
+.oper_shop_btn2+.oper_shop_label2 {
+  background:url('../../img/condition01_off.jpg') no-repeat 0 0px / contain;
   margin:0 7px;
   padding:15px;
   width: 60px;
   height: 30px;
 }
 .oper_shop_btn1:checked+.oper_shop_label1 {
-  background:url('../../img/btn1_on.jpg') no-repeat 0 0px / contain;
+  background:url('../../img/condition01_on.jpg') no-repeat 0 0px / contain;
   border:none;
 }
 .oper_shop_btn2+.oper_shop_label2 {
-  background:url('../../img/btn2_off.jpg') no-repeat 0 0px / contain;
+  background:url('../../img/condition02_off.jpg') no-repeat 0 0px / contain;
 }
 .oper_shop_btn2:checked+.oper_shop_label2 {
-  background:url('../../img/btn2_on.jpg') no-repeat 0 0px / contain;
+  background:url('../../img/condition02_on.jpg') no-repeat 0 0px / contain;
   border:none;
 }
-.oper_shop_btn3+.oper_shop_label3 {
+/* 매장상태 버튼 우선 비활성화 */
+/* .oper_shop_btn3+.oper_shop_label3 {
   background:url('../../img/btn3_off.jpg') no-repeat 0 0px / contain;
 }
 .oper_shop_btn3:checked+.oper_shop_label3 {
@@ -75,7 +70,7 @@
 .oper_shop_btn5:checked+.oper_shop_label5 {
   background:url('../../img/btn5_on.jpg') no-repeat 0 0px / contain;
   border:none;
-}
+} */
 /* 가게상태 */
 .shop_condition {
   display:flex;
@@ -109,28 +104,28 @@
   border-radius: 3px;
 }
 .shop_help:before {
-	content: '';
-	position: absolute;
-	border-style: solid;
-	border-width: 0 13px 20px 10.5px;
-	border-color: #5dae8a transparent;
-	display: block;
-	width: 0;
-	z-index: 0;
-	top: -20px;
-	right: -1px;
+  content: '';
+  position: absolute;
+  border-style: solid;
+  border-width: 0 13px 20px 10.5px;
+  border-color: #5dae8a transparent;
+  display: block;
+  width: 1px;
+  z-index: 0;
+  top: -19px;
+  left: -1px;
 }
 .shop_help:after {
-	content: '';
-	position: absolute;
-	border-style: solid;
-	border-width: 0 13px 20px 10.5px;
-	border-color: #FFFFFF transparent;
-	display: block;
-	width: 0;
-	z-index: 1;
-	top: -18.5px; 
-	right: -1px; 
+  content: '';
+  position: absolute;
+  border-style: solid;
+  border-width: 0 13px 20px 10.5px;
+  border-color: #FFFFFF transparent;
+  display: block;
+  width: 0;
+  z-index: 1;
+  top: -18.5px;
+  left: -1px;
 }
 .shop_help > span {
   display: block;

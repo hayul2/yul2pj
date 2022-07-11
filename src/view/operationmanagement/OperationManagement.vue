@@ -28,7 +28,8 @@
           @change="clickFunc" 
           />
           <label for="oper_shopBtn2" class="oper_shop_label2"></label>
-        <input 
+          <!--매장상태 버튼 우선 비활성화-->
+        <!-- <input 
           type="checkbox" 
           class="oper_shop_btn3" id="oper_shopBtn3" 
           v-model='checkedValues' value="준비중"
@@ -47,15 +48,13 @@
           class="oper_shop_btn5" id="oper_shopBtn5"
           v-model='checkedValues' value="딩동오더 정지"
           @change="clickFunc"
-          />
+          /> -->
           <label for="oper_shopBtn5" class="oper_shop_label5"></label>
         <i class="xi-help-o" @click="show=!show"></i>
           <div class="shop_help" v-show="show">
             <span>- 매장상태를 임의로 변경 가능합니다.</span>
             <span>- 변경하신 매장상태는 다음날이 되면 정상상태로 변경됩니다.</span>
-            <span>- 노출정지: 딩동오더에 가게가 나타나지 않습니다</span>
-            <span>- 딩동오더 정지: 카운터 주문만 가능합니다.</span>
-            <span>- 정상상태: 설정된 데이터에 맞게 운영되는 상태</span>
+
           </div>
         </form>
       </div>

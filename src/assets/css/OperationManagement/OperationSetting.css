@@ -35,6 +35,7 @@
     display: block;
     line-height:3;
     padding-right:5px;
+    color:#5dae8a;
 }
 /* datepicker */
 .dp__pointer {
@@ -116,16 +117,16 @@
     margin: 0 7px;
     padding:15px;
     border:1px solid #5dae8a;
-    background:url('../../img/dayfive_off.jpg') no-repeat 0 0px / contain;
+    background:url('../../img/day01_off.jpg') no-repeat 0 0px / contain;
 }
 .day_Five1:checked+.dayFive_Label1 {
-    background:url('../../img/dayfive_on.jpg') no-repeat 0 0px / contain;
+    background:url('../../img/day01_on.jpg') no-repeat 0 0px / contain;
 }
 .day_Five2+.dayFive_Label2 {
-    background:url('../../img/holyday_off.jpg') no-repeat 0 0px / contain;
+    background:url('../../img/day02_off.jpg') no-repeat 0 0px / contain;
 }
 .day_Five2:checked+.dayFive_Label2 {
-    background:url('../../img/holyday_on.jpg') no-repeat 0 0px / contain;
+    background:url('../../img/day02_on.jpg') no-repeat 0 0px / contain;
 }
 /* 평일 주말 버튼 끝 */
 
@@ -145,46 +146,46 @@
     width: 30px;
     height: 30px;
     border:1px solid #5dae8a;
-    background:url('../../img/day1_off.jpg') no-repeat 0 0px / contain;
+    background:url('../../img/day03_off.jpg') no-repeat 0 0px / contain;
 }
 .day_btn1:checked+.day_label1 {
-    background:url('../../img/day1_on.jpg') no-repeat 0 0px / contain;
+    background:url('../../img/day03_on.jpg') no-repeat 0 0px / contain;
 }
 .day_btn2+.day_label2 {
-    background:url('../../img/day2_off.jpg') no-repeat 0 0px / contain;
+    background:url('../../img/day04_off.jpg') no-repeat 0 0px / contain;
 }
 .day_btn2:checked+.day_label2 {
-    background:url('../../img/day2_on.jpg') no-repeat 0 0px / contain;
+    background:url('../../img/day04_on.jpg') no-repeat 0 0px / contain;
 }
 .day_btn3+.day_label3 {
-    background:url('../../img/day3_off.jpg') no-repeat 0 0px / contain;
+    background:url('../../img/day05_off.jpg') no-repeat 0 0px / contain;
 }
 .day_btn3:checked+.day_label3 {
-    background:url('../../img/day3_on.jpg') no-repeat 0 0px / contain;
+    background:url('../../img/day05_on.jpg') no-repeat 0 0px / contain;
 }
 .day_btn4+.day_label4 {
-    background:url('../../img/day4_off.jpg') no-repeat 0 0px / contain;
+    background:url('../../img/day06_off.jpg') no-repeat 0 0px / contain;
 }
 .day_btn4:checked+.day_label4 {
-    background:url('../../img/day4_on.jpg') no-repeat 0 0px / contain;
+    background:url('../../img/day06_on.jpg') no-repeat 0 0px / contain;
 }
 .day_btn5+.day_label5 {
-    background:url('../../img/day5_off.jpg') no-repeat 0 0px / contain;
+    background:url('../../img/day07_off.jpg') no-repeat 0 0px / contain;
 }
 .day_btn5:checked+.day_label5 {
-    background:url('../../img/day5_on.jpg') no-repeat 0 0px / contain;
+    background:url('../../img/day07_on.jpg') no-repeat 0 0px / contain;
 }
 .day_btn6+.day_label6 {
-    background:url('../../img/day6_off.jpg') no-repeat 0 0px / contain;
+    background:url('../../img/day08_off.jpg') no-repeat 0 0px / contain;
 }
 .day_btn6:checked+.day_label6 {
-    background:url('../../img/day6_on.jpg') no-repeat 0 0px / contain;
+    background:url('../../img/day08_on.jpg') no-repeat 0 0px / contain;
 }
 .day_btn7+.day_label7 {
-    background:url('../../img/day7_off.jpg') no-repeat 0 0px / contain;
+    background:url('../../img/day09_off.jpg') no-repeat 0 0px / contain;
 }
 .day_btn7:checked+.day_label7 {
-    background:url('../../img/day7_on.jpg') no-repeat 0 0px / contain;
+    background:url('../../img/day09_on.jpg') no-repeat 0 0px / contain;
 }
 /* 요일 체크 버튼 끝*/
 .form-check {
